@@ -1,0 +1,9 @@
+Course Code: CIT3411
+Course Name: Professional Training in Cloud Computing I
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 0
+Prerequisites: None
+Unlocks: None
+Description: This course introduces cloud computing concepts, services, and deployment models. Students explore how computing resources and applications are delivered through the cloud.

@@ -1,0 +1,9 @@
+Course Code: CCS2304
+Course Name: Advanced Programming Applications
+Department: Common
+Year: 2
+Term: 4
+Credit Hours: 3
+Prerequisites: CCS2303
+Unlocks: CCS4209 (Prerequisites: CCS2201 AND CCS2304); CCS4206 (Prerequisites: CCS2201 AND CCS2304); CCS4504 (Prerequisites: CCS2304 AND CCS2201)
+Description: This course utilizes JAVA as an Object-Oriented Programming language. It introduces the advanced features of JAVA through applications. Among those advanced features: file I/O, exception handling, multithreaded programming, building user interface using JavaFX, database connectivity using JDBC, and network programming using sockets. The course will also introduce the principles of design patterns and remote method invocation.

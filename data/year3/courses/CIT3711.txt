@@ -1,0 +1,9 @@
+Course Code: CIT3711
+Course Name: Professional Training in ERP I
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 0
+Prerequisites: None
+Unlocks: None
+Description: This course introduces Enterprise Resource Planning (ERP) systems and explains how organizations use integrated software to manage business processes and information.

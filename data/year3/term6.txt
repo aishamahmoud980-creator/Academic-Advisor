@@ -1,0 +1,29 @@
+Year: 3
+Term: 6
+
+Core courses:
+- EBA3201: Advanced Statistics (3 Credit Hours)
+- CCS3403: Computing Algorithms (3 Credit Hours)
+- CCS3002: Numerical Methods (3 Credit Hours)
+- CCS3003: System Modeling and Simulation (3 Credit Hours)
+- CCS3501: Computer Graphics (3 Credit Hours)
+
+Major elective options appearing in the supplied curriculum:
+- CAI3105: Advanced Artificial Intelligence (3 Credit Hours)
+- CAI3103: Deep Learning (3 Credit Hours)
+
+Professional Training I options (choose the applicable track; these are alternatives):
+- CIT3701: Professional Training in Database I (0 Credit Hours)
+- CIT3101: Professional Training in Software Testing I (0 Credit Hours)
+- CIT3801: Professional Training in Multimedia I (0 Credit Hours)
+- CIT3901: Professional Training in Data Science I (0 Credit Hours)
+- CIT3601: Professional Training in AI I (0 Credit Hours)
+- CIT3301: Professional Training in Networking I (0 Credit Hours)
+- CIT3401: Professional Training in Operating Systems I (0 Credit Hours)
+- CIT3211: Professional Training in Programming I (0 Credit Hours)
+- CIT3501: Professional Training in Cybersecurity I (0 Credit Hours)
+- CIT3411: Professional Training in Cloud Computing I (0 Credit Hours)
+- CIT3721: Professional Training in GIS I (0 Credit Hours)
+- CIT3711: Professional Training in ERP I (0 Credit Hours)
+
+Total Credit Hours: 15 (core courses only; elective and professional-training alternatives are not added to this total).

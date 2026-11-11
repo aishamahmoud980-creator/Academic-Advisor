@@ -1,0 +1,9 @@
+Course Code: CIT3401
+Course Name: Professional Training in Operating Systems I
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 0
+Prerequisites: None
+Unlocks: None
+Description: This course introduces the basic concepts of operating systems, including processes, memory management, file systems, and resource management.

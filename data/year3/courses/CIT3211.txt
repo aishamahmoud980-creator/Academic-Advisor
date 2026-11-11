@@ -1,0 +1,9 @@
+Course Code: CIT3211
+Course Name: Professional Training in Programming I
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 0
+Prerequisites: None
+Unlocks: None
+Description: This course introduces programming concepts and practical coding skills. Students practice writing, testing, and debugging programs using common programming techniques.

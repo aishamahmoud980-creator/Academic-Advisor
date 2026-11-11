@@ -1,0 +1,9 @@
+Course Code: EBA3202
+Course Name: Differential Equations
+Department: Computer Science
+Year: 3
+Term: 5
+Credit Hours: 3
+Prerequisites: EBA1204
+Unlocks: None
+Description: This course provides the basic definition of Laplace transform and their theorems: First shift theorem, transform of differentiation and integration, unit step function, second shift theorem and convolution theorem. Inverse of Laplace transform. Fourier analysis: Definition of Fourier series, Fourier series of functions of period 2P, Fourier series for even and odd functions, half-Range expansions and Fourier series for harmonic functions. Then the student should also study Fourier integrals, Fourier cosine and sine transforms and Fourier transform. Also, this course provides an introduction to linear programming, including its basic concepts, unconstrained optimization, and solving system of linear inequalities using the simplex method. Vector spaces are studied in an abstract setting, examining the concepts of linear independence, span, bases, subspaces, and dimension. There follows a discussion of the association between linear transformations and matrices.

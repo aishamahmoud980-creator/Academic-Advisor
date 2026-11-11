@@ -1,0 +1,9 @@
+Course Code: CIT3601
+Course Name: Professional Training in AI I
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 0
+Prerequisites: None
+Unlocks: None
+Description: This course introduces artificial intelligence concepts and basic techniques, including problem solving, search, and introductory machine learning applications.

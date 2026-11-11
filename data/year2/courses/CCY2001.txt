@@ -1,0 +1,9 @@
+Course Code: CCY2001
+Course Name: Introduction to Cybersecurity
+Department: Common
+Year: 2
+Term: 4
+Credit Hours: 3
+Prerequisites: CCS2201
+Unlocks: CCS4204 (Prerequisites: CCS3203 AND CCY2001)
+Description: The course introduces students to the cybersecurity field. It emphasizes the importance of securing data, information, and computer networks. Furthermore, it exposes various cybersecurity technologies, procedures, threats, vulnerabilities, countermeasures, and risk management. In addition, the course covers cryptography basics as a mechanism to implement cybersecurity services. Moreover, it highlights cybersecurity standards and sheds insights on cybersecurity for the future.

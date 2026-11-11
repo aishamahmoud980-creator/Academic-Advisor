@@ -1,0 +1,9 @@
+Course Code: CIS2101
+Course Name: Database Systems
+Department: Common
+Year: 2
+Term: 3
+Credit Hours: 3
+Prerequisites: CCS1302
+Unlocks: CCS2305 (Prerequisites: CIS2101)
+Description: The course covers topics related to the analysis, design, and normalization of relational databases. Case studies are analyzed and discussed on each concept. Hands on implementation skills using SQL are covered including data definition, data modification, SQL queries and subqueries. Implementation skills are practiced on ORACLE database management system. Advanced topics such as concurrent transactions are discussed along with related problems. Students also learn about additional Data Bases support for special data types such as Extensible Mark-Up Language (XML) documents.

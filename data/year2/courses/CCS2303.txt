@@ -1,0 +1,9 @@
+Course Code: CCS2303
+Course Name: Object-Oriented Programming
+Department: Common
+Year: 2
+Term: 3
+Credit Hours: 3
+Prerequisites: CCS1302
+Unlocks: CCS2304 (Prerequisites: CCS2303); CCS2401 (Prerequisites: CCS2303); CSE2001 (Prerequisites: CIS1000 AND CCS2303); CCS3202 (Prerequisites: CCS2303 AND CCS2103); CCS3003 (Prerequisites: CCS2303 AND EBA2203); CCS4308 (Prerequisites: CCS2303 AND CCS3501)
+Description: This course introduces students to the concepts of object-oriented programming. The concepts of classes and objects are introduced followed by a description of various types of class members. The course describes the concepts of abstraction and encapsulation and how to apply these concepts when creating classes. The course also describes the object-oriented relationships: association, aggregation, composition, inheritance and implementation. In addition, the concept and role of polymorphism are introduced covering method overloading, method overriding and dynamic method dispatching.

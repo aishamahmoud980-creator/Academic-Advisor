@@ -1,0 +1,9 @@
+Course Code: CCS2102
+Course Name: Digital Logic Design
+Department: Common
+Year: 2
+Term: 3
+Credit Hours: 3
+Prerequisites: CCS1101
+Unlocks: CCS2103 (Prerequisites: CCS2102)
+Description:This course aims to develop computer science skills in the design and analysis of digital logic circuits with applications to digital computing. It covers: Numbering systems, binary arithmetic and codes, logic gates, Boolean algebra and logic simplifications, Design and realization of combinational circuits, Functions of sequential logic circuits: Flip-Flops, analysis design and realization of counters.

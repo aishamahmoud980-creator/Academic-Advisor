@@ -1,0 +1,9 @@
+Course Code: EBA2203
+Course Name: Probability & Statistics
+Department: Common
+Year: 2
+Term: 3
+Credit Hours: 3
+Prerequisites: EBA1204
+Unlocks: EBA3201 (Prerequisites: EBA2203); CCS3003 (Prerequisites: CCS2303 AND EBA2203); CCS4005 (Prerequisites: CCS2401 AND EBA2203); CCS4404 (Prerequisites: CCS2401 AND EBA2203)
+Description: This course provides an introduction on Statistics. Topics of interest include the statistical analysis on statistical data, statistical measurements. Elementary probability, probability theorems, conditional probability, independent and dependent events, total probability rule and Baye's Theorem. Discrete probability distribution, probability mass function, continuous probability distribution and probability density function. Mathematical expectation: mean and variance. Special discrete distribution: Bernoulli, Binomial. Geometric and Poisson distributions. Special continuous distribution: Uniform, negative exponential and normal distribution.

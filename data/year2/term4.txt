@@ -1,0 +1,12 @@
+Year: 2
+Term: 4
+
+Courses:
+- CSE2001: Introduction to Software Engineering (3 Credit Hours)
+- CCY2001: Introduction to Cybersecurity (3 Credit Hours)
+- CCS2103: Introduction to Computer Architecture (3 Credit Hours)
+- CCS2304: Advanced Programming Applications (3 Credit Hours)
+- CCS2401: Data Structures and Algorithms (3 Credit Hours)
+- CCS2305: Web Programming (3 Credit Hours)
+
+Total Credit Hours: 18

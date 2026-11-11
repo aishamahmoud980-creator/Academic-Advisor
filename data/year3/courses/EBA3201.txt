@@ -1,0 +1,9 @@
+Course Code: EBA3201
+Course Name: Advanced Statistics
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 3
+Prerequisites: EBA2203
+Unlocks: None
+Description: The course is intended to give basic knowledge of the theory and methods of statistical inference, i.e., how to use observed data to draw conclusions about phenomena influenced by random factors. By the end of the course, the student should be able to use a probability model to describe and analyze observed data and draw conclusions concerning interesting parameters; understand the principles of statistical inference; explore the relationships between two or several variables and use suitable software (R) for certain types of statistical analyses.

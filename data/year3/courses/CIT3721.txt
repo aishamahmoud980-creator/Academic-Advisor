@@ -1,0 +1,9 @@
+Course Code: CIT3721
+Course Name: Professional Training in GIS I
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 0
+Prerequisites: None
+Unlocks: None
+Description: This course introduces Geographic Information Systems (GIS), including spatial data, digital maps, and basic methods for collecting, managing, and analyzing geographic information.

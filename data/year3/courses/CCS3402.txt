@@ -1,0 +1,9 @@
+Course Code: CCS3402
+Course Name: Theory of Computation
+Department: Computer Science
+Year: 3
+Term: 5
+Credit Hours: 3
+Prerequisites: CCS1001
+Unlocks: CCS4306 (requires CCS3402 AND CCS3202)
+Description: This course introduces the fundamental mathematical models of computation. It covers the capabilities and limitations of computational models and their relationships with formal languages, including finite automata, regular languages, context-free grammars, pushdown automata, and Turing machines.

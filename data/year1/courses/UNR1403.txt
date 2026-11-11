@@ -1,0 +1,13 @@
+Course Code: UNR1403
+Course Name: Academic English
+Department: Common
+Year: 1
+Term: 1
+Credit Hours: 2
+Prerequisites: None (or GLA0001 for students who have not passed the English Proficiency Test)
+Unlocks: UNR2101, UNR1407
+Description:This course aims to develop students' four major language skills: reading, listening, 
+speaking, and writing, through exposure to computing and information technology topics.
+Students learn to understand technical English texts, communicate effectively using technical vocabulary, 
+and apply different language functions. The course also helps students improve their ability to participate in discussions, 
+understand lectures and interviews, take notes, and produce clear and well-organized academic writing.

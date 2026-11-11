@@ -1,0 +1,14 @@
+Course Code: UNR2101
+Course Name: Communication and Presentation Skills
+Department: Common
+Year: 1
+Term: 2
+Credit Hours: 2
+Prerequisites: UNR1403
+Unlocks: None
+Description:This course aims at enhancing students’ technical communication skills, 
+especially writing and oral skills. The course provides both theoretical and practical bases 
+for the students to master different types of skills needed for communicating effectively in the workplace. 
+The course also helps students to build on their communication strengths and learn how to remedy their weaknesses through constructive feedback. 
+Topics include communicating effectively in the workplace, conducting formal meetings, 
+conducting interviews and delivering persuasive presentations.

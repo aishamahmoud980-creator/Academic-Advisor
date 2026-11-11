@@ -1,0 +1,14 @@
+Course Code: EBA1110
+Course Name: Physics
+Department: Common
+Year: 1
+Term: 1
+Credit Hours: 3
+Prerequisites: Not specified in the provided source.
+Unlocks: None
+Description:Electrostatics + Coulomb’s law - Electric field – Motion of charged particles in a uniform electric field- Electric flux 
+and Gauss law – Electric Potential energy and electric potential - Capacitors(parallel plate capacitors, energy stored) – Capacitors in series and 
+parallel – Electric current- Ohm's law - resistivity- Power in the circuits – Resistors in series and parallel – Kirchhoff's rules-R.C circuit – 
+Magnetism (Force on a charge in magnetic field) Force on a current- carrying conductor in magnetic field. Biotsavart law and its application
+– Amper's law and its applications – Electromagnetic Induction- Magnetic flux- Faraday's law - Mutual Induction- Self Induction–Introduction to electromagnetic waves-electromagnetic spectrum – 
+Interference-Young's double slit experiment.

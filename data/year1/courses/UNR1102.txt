@@ -1,0 +1,14 @@
+Course Code: UNR1102
+Course Name: Creativity and Innovation
+Department: Common
+Year: 1
+Term: 1
+Credit Hours: 2
+Prerequisites: Not specified in the provided source.
+Unlocks: None
+Description:This course introduces the fundamental concepts of creativity and innovation 
+and their importance in academic, professional, and personal development. 
+It explores different aspects of creativity, cognitive abilities, and the environmental, social, personal, 
+and organizational factors that influence creative thinking. Students learn various creativity techniques and problem-solving approaches, 
+including mind mapping, Six Thinking Hats, SCAMPER, and bionics. The course also covers innovation, improvisation, invention, 
+and the development of creative ideas through practical activities, projects, discussions, and presentations.

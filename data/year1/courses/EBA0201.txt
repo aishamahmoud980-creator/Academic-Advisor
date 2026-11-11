@@ -1,0 +1,12 @@
+Course Code: EBA0201
+Course Name: Precalculus
+Department: Common
+Year: 1
+Term: 1
+Credit Hours: 0
+Prerequisites: None
+Unlocks: EBA1203 (as an alternative prerequisite for science students)
+Description:This course provides students with the essential mathematical foundations required for studying calculus and other advanced mathematics courses. 
+It covers algebraic expressions, equations and inequalities, functions and their graphs, polynomial and rational functions, 
+exponential and logarithmic functions, and trigonometric concepts. Students develop mathematical reasoning, analytical thinking, 
+and problem-solving skills needed to understand more advanced mathematical topics, particularly calculus.

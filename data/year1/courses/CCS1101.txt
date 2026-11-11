@@ -1,0 +1,13 @@
+Course Code: CCS1101
+Course Name: Introduction to Computing
+Department: Common
+Year: 1
+Term: 1
+Credit Hours: 3
+Prerequisites: None
+Unlocks: CCS1302, CCS1001, CCS2102
+Description:This course provides an introduction to the fundamental concepts of computing and computer systems. 
+It covers computer hardware and software, data representation, operating systems, computer networks, information technology, 
+and basic computational concepts. Students gain an understanding of how computers work, how information is processed and stored,
+and how computing technologies are used to solve real-world problems. The course builds a foundation for further studies in programming, 
+computer science, and information technology.

@@ -1,0 +1,9 @@
+Course Code: CAI3103
+Course Name: Deep Learning
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 3
+Prerequisites: CAI3101
+Unlocks: CAI4201
+Description: In this course, students will gain insight into the Deep learning algorithms, how they work, their strengths, challenges that lie ahead of them and when to apply them. We will investigate various Deep Learning models from the supervised and unsupervised learning domain. We will examine various existing pipelines used for handling real-world applications. The focus is on Artificial Neural Networks (ANN), Convolution Neural Networks (CNN), and various generative models.

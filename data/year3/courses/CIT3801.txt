@@ -1,0 +1,9 @@
+Course Code: CIT3801
+Course Name: Professional Training in Multimedia I
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: Not specified in the provided source.
+Prerequisites: None
+Unlocks: None
+Description: This course introduces Adobe software (Photoshop, Illustrator and After Effects). It enables students to use Photoshop tools to work with photographic images, create logos, advertisements and other illustrations in Illustrator, and use After Effects for video compositing, motion graphics design and animation.

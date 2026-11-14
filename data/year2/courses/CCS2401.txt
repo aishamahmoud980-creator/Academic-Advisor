@@ -1,0 +1,9 @@
+Course Code: CCS2401
+Course Name: Data Structures and Algorithms
+Department: Common
+Year: 2
+Term: 4
+Credit Hours: 3
+Prerequisites: CCS2303
+Unlocks: CAI3101 (Prerequisites: CCS1001 AND CCS2401); CCS3203 (Prerequisites: CCS2103 AND CCS2401); CCS3403 (Prerequisites: CCS2401); CCS3501 (Prerequisites: CCS2401 AND EBA2204); CCS4005 (Prerequisites: CCS2401 AND EBA2203); CCS4404 (Prerequisites: CCS2401 AND EBA2203); CCS4405 (Prerequisites: CCS2401 AND EBA2204); CCS4505 (Prerequisites: CCS2401 AND EBA2204)
+Description: This course covers the organization of data and algorithms that act upon them. The topics include analysis of algorithms, linked lists, stacks, queues, trees, graphs, heaps, and hashing. Algorithms manipulating data structures, like searching and sorting, memory allocation and file management are included. The concept of abstract data types is also introduced. Moreover, the course gives an introduction to algorithm design techniques.

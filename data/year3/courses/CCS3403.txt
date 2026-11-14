@@ -1,0 +1,9 @@
+Course Code: CCS3403
+Course Name: Computing Algorithms
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 3
+Prerequisites: CCS2401
+Unlocks: CCS4406 (requires CCS3403 AND EBA2204)
+Description: This course introduces the mathematical design and analysis of computer algorithms. Algorithm complexity, growth of functions, recurrences will be covered. Algorithm design techniques such as divide-and-conquer, dynamic programming and greediness will be introduced. Moreover, well known algorithms for e.g., sorting, searching, graph problems and computational geometry will be developed.

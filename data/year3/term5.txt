@@ -1,0 +1,13 @@
+Year: 3
+Term: 5
+
+Courses:
+- CCS3402: Theory of Computation (3 Credit Hours)
+- CCS3202: Systems Programming (3 Credit Hours)
+- CAI3101: Introduction to Artificial Intelligence (3 Credit Hours)
+- CCS3203: Operating Systems (3 Credit Hours)
+- EBA3202: Differential Equations (3 Credit Hours)
+- CIT3200: Professional Training in Mobile Apps Programming (0 Credit Hours)
+
+Note: CIT3200 is officially listed as a zero-credit course. The five academic courses carry 3 credit hours each.
+Total Credit Hours: 15

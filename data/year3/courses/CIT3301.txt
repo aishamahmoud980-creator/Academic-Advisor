@@ -1,0 +1,9 @@
+Course Code: CIT3301
+Course Name: Professional Training in Networking I
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: Not specified in the provided source.
+Prerequisites: None
+Unlocks: None
+Description: This course introduces how networks operate. It is the first course in the three-course CCNA series and introduces network architectures, models, protocols and networking elements. Students build simple local area networks (LANs), learn IP addressing schemes and foundational network security, and perform basic configurations for routers and switches.

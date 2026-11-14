@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "category": "A. Course Information",
+    "question": "What is the course code for Database Systems?",
+    "expected_answer": "CIS2101."
+  },
+  {
+    "id": 2,
+    "category": "A. Course Information",
+    "question": "What is the name of course CCY2001?",
+    "expected_answer": "Introduction to Cybersecurity."
+  },
+  {
+    "id": 3,
+    "category": "A. Course Information",
+    "question": "How many credit hours does Data Structures and Algorithms have?",
+    "expected_answer": "3 credit hours (CCS2401)."
+  },
+  {
+    "id": 4,
+    "category": "A. Course Information",
+    "question": "In which year and term is Web Programming offered?",
+    "expected_answer": "Year 2, Term 4 (CCS2305)."
+  },
+  {
+    "id": 5,
+    "category": "A. Course Information",
+    "question": "What is the department of CCS2102?",
+    "expected_answer": "Common"
+  },
+  {
+    "id": 6,
+    "category": "B. Term and Year",
+    "question": "Which courses are offered in Term 3?",
+    "expected_answer": "EBA2204 Linear Algebra, EBA2203 Probability & Statistics, CIS2101 Database Systems, CCS2303 Object-Oriented Programming, CCS2102 Digital Logic Design, CCS2201 Introduction to Networks."
+  },
+  {
+    "id": 7,
+    "category": "B. Term and Year",
+    "question": "How many courses are offered in Term 4?",
+    "expected_answer": "6 courses."
+  },
+  {
+    "id": 8,
+    "category": "B. Term and Year",
+    "question": "What is the total number of credit hours in Term 3?",
+    "expected_answer": "18 credit hours."
+  },
+  {
+    "id": 9,
+    "category": "B. Term and Year",
+    "question": "Is Linear Algebra offered in Term 4?",
+    "expected_answer": "No. Linear Algebra (EBA2204) is offered in Term 3."
+  },
+  {
+    "id": 10,
+    "category": "B. Term and Year",
+    "question": "What courses are included in Year 2?",
+    "expected_answer": "12 courses. Term 3: EBA2204, EBA2203, CIS2101, CCS2303, CCS2102, CCS2201. Term 4: CSE2001, CCY2001, CCS2103, CCS2304, CCS2401, CCS2305."
+  },
+  {
+    "id": 11,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for Introduction to Software Engineering?",
+    "expected_answer": "CIS1000 AND CCS2303 (CSE2001) - both are required."
+  },
+  {
+    "id": 12,
+    "category": "C. Prerequisites",
+    "question": "Can I take Introduction to Cybersecurity without completing Introduction to Networks?",
+    "expected_answer": "No. CCY2001 requires CCS2201 (Introduction to Networks)."
+  },
+  {
+    "id": 13,
+    "category": "C. Prerequisites",
+    "question": "Which course must I complete before taking CCS2103?",
+    "expected_answer": "CCS2102 (Digital Logic Design)."
+  },
+  {
+    "id": 14,
+    "category": "C. Prerequisites",
+    "question": "Does CSE2001 require multiple prerequisites?",
+    "expected_answer": "Yes. It requires CIS1000 AND CCS2303 (both)."
+  },
+  {
+    "id": 15,
+    "category": "C. Prerequisites",
+    "question": "What is the prerequisite for Web Programming?",
+    "expected_answer": "CIS2101 (Database Systems) is the prerequisite for CCS2305."
+  },
+  {
+    "id": 16,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses require CIS2101 as a prerequisite?",
+    "expected_answer": "CCS2305 (Web Programming)."
+  },
+  {
+    "id": 17,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses can I take after completing CCS2102?",
+    "expected_answer": "CCS2103 (Introduction to Computer Architecture), whose prerequisite is CCS2102."
+  },
+  {
+    "id": 18,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Does completing Introduction to Cybersecurity unlock any other courses?",
+    "expected_answer": "CCS4204 depends on it, but it requires CCS3203 AND CCY2001, so CCY2001 alone is not enough."
+  },
+  {
+    "id": 19,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "What future courses depend on CSE2001?",
+    "expected_answer": "CCS4502 (prerequisite: CSE2001)."
+  },
+  {
+    "id": 20,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "What are the prerequisites for CCS3202?",
+    "expected_answer": "CCS2303 AND CCS2103, so completing CCS2303 alone is not enough."
+  },
+  {
+    "id": 21,
+    "category": "E. Multi-Information",
+    "question": "List all courses in Term 3 with their codes and credit hours.",
+    "expected_answer": "EBA2204 Linear Algebra (3), EBA2203 Probability & Statistics (3), CIS2101 Database Systems (3), CCS2303 Object-Oriented Programming (3), CCS2102 Digital Logic Design (3), CCS2201 Introduction to Networks (3). Total 18."
+  },
+  {
+    "id": 22,
+    "category": "E. Multi-Information",
+    "question": "Show all courses in Term 4 with their prerequisites.",
+    "expected_answer": "CSE2001: CIS1000 AND CCS2303; CCY2001: CCS2201; CCS2103: CCS2102; CCS2304: CCS2303; CCS2401: CCS2303; CCS2305: CIS2101."
+  },
+  {
+    "id": 23,
+    "category": "E. Multi-Information",
+    "question": "Compare the courses in Term 3 and Term 4.",
+    "expected_answer": "Both terms have 6 courses and 18 credit hours (3 each). Term 3: EBA2204, EBA2203, CIS2101, CCS2303, CCS2102, CCS2201. Term 4: CSE2001, CCY2001, CCS2103, CCS2304, CCS2401, CCS2305."
+  },
+  {
+    "id": 24,
+    "category": "E. Multi-Information",
+    "question": "Which courses in Term 4 require a course from Term 3?",
+    "expected_answer": "All six: CSE2001 (CCS2303, plus CIS1000), CCY2001 (CCS2201), CCS2103 (CCS2102), CCS2304 (CCS2303), CCS2401 (CCS2303), CCS2305 (CIS2101)."
+  },
+  {
+    "id": 25,
+    "category": "E. Multi-Information",
+    "question": "List all Year 2 courses with their codes, credit hours, and prerequisites.",
+    "expected_answer": "EBA2204 (3; EBA1204), EBA2203 (3; EBA1204), CIS2101 (3; CCS1302), CCS2303 (3; CCS1302), CCS2102 (3; CCS1101), CCS2201 (3; CCS1302), CSE2001 (3; CIS1000 AND CCS2303), CCY2001 (3; CCS2201), CCS2103 (3; CCS2102), CCS2304 (3; CCS2303), CCS2401 (3; CCS2303), CCS2305 (3; CIS2101)."
+  },
+  {
+    "id": 26,
+    "category": "F. Missing Information",
+    "question": "What is the exam date for Data Structures and Algorithms?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 27,
+    "category": "F. Missing Information",
+    "question": "Who is the instructor of CCS2303?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 28,
+    "category": "F. Missing Information",
+    "question": "What textbook is used in Digital Logic Design?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 29,
+    "category": "F. Missing Information",
+    "question": "What is the exam schedule for Year 2?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 30,
+    "category": "F. Missing Information",
+    "question": "What is the attendance percentage required for Database Systems?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 31,
+    "category": "G. Out-of-Scope",
+    "question": "What is the best programming language?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 32,
+    "category": "G. Out-of-Scope",
+    "question": "Which university is better?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 33,
+    "category": "G. Out-of-Scope",
+    "question": "Can you recommend a laptop for studying?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 34,
+    "category": "G. Out-of-Scope",
+    "question": "What is the weather today?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 35,
+    "category": "G. Out-of-Scope",
+    "question": "How can I learn game development?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  }
+]

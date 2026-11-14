@@ -1,0 +1,212 @@
+[
+  {
+    "id": 101,
+    "category": "B. Term and Year",
+    "question": "What courses are listed in Term 5?",
+    "expected_answer": "CCS3402, CCS3202, CAI3101, CCS3203, EBA3202, and CIT3200."
+  },
+  {
+    "id": 102,
+    "category": "B. Term and Year",
+    "question": "What courses are listed in Term 6 as core courses?",
+    "expected_answer": "EBA3201, CCS3403, CCS3002, CCS3003, and CCS3501."
+  },
+  {
+    "id": 103,
+    "category": "A. Course Information",
+    "question": "How many credit hours does CCS3402 have?",
+    "expected_answer": "3 credit hours."
+  },
+  {
+    "id": 104,
+    "category": "A. Course Information",
+    "question": "What is the course name for CCS3202?",
+    "expected_answer": "Systems Programming."
+  },
+  {
+    "id": 105,
+    "category": "A. Course Information",
+    "question": "What is the course code for Operating Systems?",
+    "expected_answer": "CCS3203."
+  },
+  {
+    "id": 106,
+    "category": "A. Course Information",
+    "question": "How many credit hours does CIT3200 have?",
+    "expected_answer": "0 credit hours."
+  },
+  {
+    "id": 107,
+    "category": "A. Course Information",
+    "question": "In which year and term is CAI3101 offered?",
+    "expected_answer": "Year 3, Term 5."
+  },
+  {
+    "id": 108,
+    "category": "A. Course Information",
+    "question": "What department is CCS3501 in?",
+    "expected_answer": "Computer Science."
+  },
+  {
+    "id": 109,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for CCS3202?",
+    "expected_answer": "CCS2303 AND CCS2103."
+  },
+  {
+    "id": 110,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for CAI3101?",
+    "expected_answer": "CCS1001 AND CCS2401."
+  },
+  {
+    "id": 111,
+    "category": "C. Prerequisites",
+    "question": "What is the prerequisite for EBA3202?",
+    "expected_answer": "EBA1204."
+  },
+  {
+    "id": 112,
+    "category": "C. Prerequisites",
+    "question": "Can CCS3203 be taken without CCS2401?",
+    "expected_answer": "The listed prerequisite condition requires CCS2103 AND CCS2401."
+  },
+  {
+    "id": 113,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for CCS3002?",
+    "expected_answer": "CCS1302 AND EBA2204."
+  },
+  {
+    "id": 114,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for CCS3501?",
+    "expected_answer": "CCS2401 AND EBA2204."
+  },
+  {
+    "id": 115,
+    "category": "C. Prerequisites",
+    "question": "What is the prerequisite for CAI3103?",
+    "expected_answer": "CAI3101."
+  },
+  {
+    "id": 116,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which course is listed as an unlock for CCS3402?",
+    "expected_answer": "CCS4306."
+  },
+  {
+    "id": 117,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses are listed as unlocks for CCS3202?",
+    "expected_answer": "CCS4306 and CCS4307."
+  },
+  {
+    "id": 118,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses are listed as unlocks for CAI3101?",
+    "expected_answer": "CAI3105, CAI3103, and CCS4605."
+  },
+  {
+    "id": 119,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses are listed as unlocks for CCS3203?",
+    "expected_answer": "CCS4204, CCS4205, and CCS4208."
+  },
+  {
+    "id": 120,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses are listed as unlocks for CCS3501?",
+    "expected_answer": "CCS4503 and CCS4308."
+  },
+  {
+    "id": 121,
+    "category": "A. Course Information",
+    "question": "What is the description of Systems Programming?",
+    "expected_answer": "It covers machine architecture, machine and assembly languages, assemblers, macro facilities, loaders, linkers, formal languages, compilers, and interpreters."
+  },
+  {
+    "id": 122,
+    "category": "A. Course Information",
+    "question": "What does Introduction to Artificial Intelligence cover?",
+    "expected_answer": "Problem solving, search, knowledge representation, and supervised and unsupervised machine learning."
+  },
+  {
+    "id": 123,
+    "category": "A. Course Information",
+    "question": "What topics are covered in Computer Graphics?",
+    "expected_answer": "Graphics systems and applications, output primitives, drawing algorithms, transformations, windowing, clipping, and color systems."
+  },
+  {
+    "id": 124,
+  "category": "A. Course Information",
+  "question": "What does Numerical Methods introduce?",
+  "expected_answer": "An introduction to numerical methods and their applications to solve science and engineering problems, including convergence and error analysis, with programming assignments."
+  },
+  {
+    "id": 125,
+    "category": "B. Term and Year",
+    "question": "What is the total credit-hour count for Term 5 in this dataset?",
+    "expected_answer": "15 credit hours, counting the five 3-credit academic courses; CIT3200 is zero-credit."
+  },
+  {
+    "id": 126,
+    "category": "B. Term and Year",
+    "question": "What is the core-course credit-hour total for Term 6?",
+    "expected_answer": "15 credit hours for the five listed core courses."
+  },
+  {
+    "id": 127,
+    "category": "E. Multi-Information",
+    "question": "Is every professional-training option in Term 6 taken together?",
+    "expected_answer": "No. They are alternative professional-training options; they must not all be added together."
+  },
+  {
+    "id": 128,
+    "category": "F. Missing Information",
+    "question": "What is the exam date for CCS3402?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 129,
+    "category": "F. Missing Information",
+    "question": "Who teaches CCS3203?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 130,
+    "category": "F. Missing Information",
+    "question": "What textbook is required for CAI3101?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 131,
+    "category": "F. Missing Information",
+    "question": "What is the attendance percentage for CIT3200?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 132,
+    "category": "F. Missing Information",
+    "question": "What is the student's grade in CCS3402?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 133,
+    "category": "G. Out-of-Scope",
+    "question": "What is the best programming language?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 134,
+    "category": "G. Out-of-Scope",
+    "question": "Can you recommend a gaming laptop?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 135,
+    "category": "G. Out-of-Scope",
+    "question": "What is the weather in Alexandria today?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  }
+]

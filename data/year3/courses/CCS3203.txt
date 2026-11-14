@@ -1,0 +1,9 @@
+Course Code: CCS3203
+Course Name: Operating Systems
+Department: Computer Science
+Year: 3
+Term: 5
+Credit Hours: 3
+Prerequisites: CCS2103 AND CCS2401
+Unlocks: CCS4204 (requires CCS3203 AND CCY2001); CCS4205; CCS4208 (requires CCS3203 AND CCS2201)
+Description: The course is an introduction to modern operating systems. Upon successful completion of the course, the student should acquire ample knowledge about the concepts, structure, design principles, implementation issues, and mechanisms of operating systems. Hands-on experience will be gained through a lab component and programming assignments. Furthermore, where appropriate, Windows, Unix/Linux will be presented as case studies of operating systems.

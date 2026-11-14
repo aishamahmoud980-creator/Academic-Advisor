@@ -1,0 +1,9 @@
+Course Code: CAI3105
+Course Name: Advanced Artificial Intelligence
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 3
+Prerequisites: CAI3101
+Unlocks: None
+Description: The course covers various methods within artificial intelligence and machine learning, and their applications. Advanced algorithms for supervised and unsupervised learning are included with data examples. The course contains theory components and principles that underlie advanced machine learning algorithms. Practice components are provided to relate theoretical principles with practical implementation.

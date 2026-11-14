@@ -1,0 +1,9 @@
+Course Code: CCS2305
+Course Name: Web Programming
+Department: Common
+Year: 2
+Term: 4
+Credit Hours: 3
+Prerequisites: CIS2101
+Unlocks: Not specified in the provided source.
+Description: This course is a comprehensive introduction of common, primarily open-source, technologies used to develop and maintain web sites on the Web. A variety of client-side and server-side technologies are covered. Students will download and install the Apache Web Server, PHP, and MySQL database. The course will cover programming concepts, client server architecture, database access, HTML, Cascading style sheets, and Javascript. Students will write a full-scale web application as their final project.

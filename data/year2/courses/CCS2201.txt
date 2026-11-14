@@ -1,0 +1,11 @@
+Course Code: CCS2201
+Course Name: Introduction to Networks
+Department: Common
+Year: 2
+Term: 3
+Credit Hours: 3
+Prerequisites: CCS1302
+Unlocks: CCY2001 (Prerequisites: CCS2201); CCS4208 (Prerequisites: CCS3203 AND CCS2201); CCS4209 (Prerequisites: CCS2201 AND CCS2304); CCS4206 (Prerequisites: CCS2201 AND CCS2304); CCS4504 (Prerequisites: CCS2304 AND CCS2201)
+Description: This course is an introduction to computer networks architecture and protocols with special emphasis on the Internet. The course will present the IP protocol stack including application, transport, network, and link layers. Such presentation will illustrate the main concepts, protocols, and services provided by each layer. Hands-on experience will be provided through the use of a packet sniffing and protocol analysis tool. In addition, some simple client-server network programming assignments will be presented.
+
+

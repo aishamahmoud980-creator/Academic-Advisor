@@ -1,0 +1,9 @@
+Course Code: CCS3003
+Course Name: System Modeling and Simulation
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 3
+Prerequisites: CCS2303 AND EBA2203
+Unlocks: None
+Description: The course gives the theoretic aspects of simulation, followed by its probabilistic and statistical underpinnings, including random number generation. It addresses simulation-related theory of input analysis, and output analysis. It also provides a background about Markov chain processes and queuing theory. Finally, the course describes and illustrates modeling of some applications using simulation software.

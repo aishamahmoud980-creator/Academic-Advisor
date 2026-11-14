@@ -1,0 +1,12 @@
+Year: 2
+Term: 3
+
+Courses:
+- EBA2204: Linear Algebra (3 Credit Hours)
+- EBA2203: Probability & Statistics (3 Credit Hours)
+- CIS2101: Database Systems (3 Credit Hours)
+- CCS2303: Object-Oriented Programming (3 Credit Hours)
+- CCS2102: Digital Logic Design (3 Credit Hours)
+- CCS2201: Introduction to Networks (3 Credit Hours)
+
+Total Credit Hours: 18

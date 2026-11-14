@@ -1,0 +1,9 @@
+Course Code: CIT3901
+Course Name: Professional Training in Data Science I
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 0
+Prerequisites: None
+Unlocks: None
+Description: This course introduces the data science workflow, including data collection, preparation, exploration, analysis, and visualization.

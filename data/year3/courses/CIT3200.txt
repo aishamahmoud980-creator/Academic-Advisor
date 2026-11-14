@@ -1,0 +1,9 @@
+Course Code: CIT3200
+Course Name: Professional Training in Mobile Apps Programming
+Department: Computer Science
+Year: 3
+Term: 5
+Credit Hours: 0
+Prerequisites: None
+Unlocks: None
+Description: This course provides programming technologies, design and development related to mobile applications. Topics include accessing device capabilities, industry standards, operating systems, and programming for mobile applications using an OS Software Development Kit (SDK).

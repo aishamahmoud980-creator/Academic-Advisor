@@ -1,0 +1,12 @@
+Course Code: CCS1001
+Course Name: Discrete Structures
+Department: Common
+Year: 1
+Term: 2
+Credit Hours: 3
+Prerequisites: CCS1101
+Unlocks: CAI3101 (requires CCS1001 AND CCS2401), CCS3402
+Description:This course introduces the fundamental concepts of discrete mathematics used in computer science. 
+It covers logic, propositions, predicates, set theory, relations, functions, mathematical proofs, counting techniques, 
+and graph theory. Students develop logical thinking, problem-solving, and mathematical reasoning skills that are essential for understanding algorithms, 
+data structures,and other advanced computer science topics.

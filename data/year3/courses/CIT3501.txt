@@ -1,0 +1,9 @@
+Course Code: CIT3501
+Course Name: Professional Training in Cybersecurity I
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 0
+Prerequisites: None
+Unlocks: None
+Description: This course introduces fundamental cybersecurity concepts, common threats, and basic methods for protecting systems, networks, and information.

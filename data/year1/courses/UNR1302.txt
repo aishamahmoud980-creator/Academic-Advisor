@@ -1,0 +1,14 @@
+Course Code: UNR1302
+Course Name: Fundamentals of Business
+Department: Common
+Year: 1
+Term: 1
+Credit Hours: 2
+Prerequisites: None
+Unlocks: None
+Description:This course introduces the fundamental concepts and principles of business and the role 
+of business organizations in the modern economy. It covers the main business functions, 
+including management, marketing, production, operations, human resource management, accounting, and finance. 
+Students explore business ownership, entrepreneurship, organizational structures, business ethics, leadership, decision-making, 
+and the global business environment. The course develops students' understanding of how businesses operate, manage resources, serve customers, 
+and achieve organizational goals

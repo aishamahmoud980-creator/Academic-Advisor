@@ -1,0 +1,15 @@
+Course Code: EBA1204
+Course Name: Calculus II
+Department: Common
+Year: 1
+Term: 2
+Credit Hours: 3
+Prerequisites: EBA1203
+Unlocks: EBA2204, EBA2203, EBA3202
+Description:This course provides the differentiation of indefinite integrals and table of
+famous integrals. The topics of interest include simple rules of integration & the fundamental
+theorem of calculus, fundamental theorem of calculus and integration by parts, 
+integration of rational function, integration of trigonometric powers, trigonometric substitution, and integration of quad forms,
+the reduction formulas and definite integration. Application of integration: Area and volume, length of curve, average of function, numerical integration, matrix Algebra. 
+And solution of systems of linear equations. It also illustrates solving systems of linear equations which leads to the algebra of matrices, determinants,
+vector spaces, bases and dimensions.

@@ -1,0 +1,9 @@
+Course Code: CSE2001
+Course Name: Introduction to Software Engineering
+Department: Common
+Year: 2
+Term: 4
+Credit Hours: 3
+Prerequisites: CIS1000 AND CCS2303
+Unlocks: CCS4502 (Prerequisites: CSE2001)
+Description: Software engineering is a critically important area for the future of application and/or systems development. Students must learn about software engineering to be able to create more complex software systems. Software engineering is now such a huge area. This course provides an introduction to software engineering disciplines with emphasis on software life cycle, process models, requirements specification, architecture requirements, software design, rapid software development, verification, validation and testing of software. Thus, it gives students a broad view on the whole software development life cycle and introduces techniques and standard documents used in each stage of the cycle. Moreover, during the course students undergo a team-based project with emphasis on the requirements, analysis and design phase. They use the unified modeling language as a method to model their systems.

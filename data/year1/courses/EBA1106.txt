@@ -1,0 +1,11 @@
+Course Code: EBA1106
+Course Name: Advanced Physics
+Department: Common
+Year: 1
+Term: 2
+Credit Hours: 3
+Prerequisites: Not specified in the provided source.
+Unlocks: None
+Description:This course builds on fundamental physics concepts and introduces students to more advanced principles of classical and modern physics. 
+It explores topics related to mechanics, motion, forces, energy, momentum, rotational motion, oscillations, waves, electricity, and magnetism. 
+Students develop analytical thinking, mathematical problem-solving, and the ability to apply physical principles to understand and solve scientific and engineering problems.

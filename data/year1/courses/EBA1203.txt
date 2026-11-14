@@ -1,0 +1,13 @@
+Course Code: EBA1203
+Course Name: Calculus I
+Department: Common
+Year: 1
+Term: 1
+Credit Hours: 3
+Prerequisites: None (or EBA0201 for science students)
+Unlocks: EBA1204
+Description:This course introduces the fundamental concepts of differential calculus and their applications. 
+It covers basic differentiation rules, derivatives of trigonometric, inverse trigonometric, logarithmic, exponential, 
+and hyperbolic functions. Students also study implicit and parametric differentiation, partial differentiation, L’Hôpital’s rule, 
+and Taylor and Maclaurin series expansions. The course develops mathematical and analytical skills through applications of derivatives, curve sketching, 
+and optimization problems.

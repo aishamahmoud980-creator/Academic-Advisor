@@ -1,0 +1,14 @@
+Course Code: CIS1000
+Course Name: Introduction to Information Systems
+Department: Common
+Year: 1
+Term: 1
+Credit Hours: 3
+Prerequisites: None
+Unlocks: CSE2001 (requires CCS2303 AND CIS1000)
+Description:This course introduces the fundamental concepts of Information Systems 
+and their role in modern organizations. It covers the main components and functions of information systems, 
+different types of information systems, business processes, and the use of information technology in management and 
+decision-making. Students explore topics such as computer hardware and software, telecommunications and networks, 
+database management systems, e-commerce, and enterprise information systems. The course helps students understand 
+how information systems support business operations, improve organizational performance, and provide competitive advantages.

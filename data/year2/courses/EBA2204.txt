@@ -1,0 +1,9 @@
+Course Code: EBA2204
+Course Name: Linear Algebra
+Department: Common
+Year: 2
+Term: 3
+Credit Hours: 3
+Prerequisites: EBA1204
+Unlocks: CCS3002 (Prerequisites: CCS1302 AND EBA2204); CCS3501 (Prerequisites: CCS2401 AND EBA2204); CCS4004 (Prerequisites: EBA2204 AND CCS1302); CCS4405 (Prerequisites: CCS2401 AND EBA2204); CCS4505 (Prerequisites: CCS2401 AND EBA2204); CCS4406 (Prerequisites: CCS3403 AND EBA2204)
+Description: This course illustrates the nature of mathematics as a blend of technique, theory, and applications. The important problem of solving systems of linear equations leads to the algebra of matrices, determinants, vector spaces, bases and dimension, linear transformations, and Eigen values. Vector spaces are studied in an abstract setting, examining the concepts of linear independence, span, bases, subspaces, and dimension. There follows a discussion of the association between linear transformations and matrices.

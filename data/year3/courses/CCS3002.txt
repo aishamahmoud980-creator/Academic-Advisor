@@ -1,0 +1,9 @@
+Course Code: CCS3002
+Course Name: Numerical Methods
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 3
+Prerequisites: CCS1302 AND EBA2204
+Unlocks: None
+Description: This course provides an introduction to numerical methods and their applications to solve science and engineering problems. In addition, convergence and error analysis of numerical methods is covered. In addition, practical experience with implementing numerical methods and assessing resulting errors will be acquired through a number of programming assignments.

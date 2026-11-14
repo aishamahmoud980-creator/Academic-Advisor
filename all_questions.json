@@ -1,0 +1,632 @@
+[
+  {
+    "id": 101,
+    "category": "A. Course Information",
+    "question": "What is the course code for Discrete Structures?",
+    "expected_answer": "CCS1001"
+  },
+  {
+    "id": 102,
+    "category": "A. Course Information",
+    "question": "What is the name of course CNC1401?",
+    "expected_answer": "Entrepreneurship Skills"
+  },
+  {
+    "id": 103,
+    "category": "A. Course Information",
+    "question": "How many credit hours does Calculus I have?",
+    "expected_answer": "3 credit hours (EBA1203)"
+  },
+  {
+    "id": 104,
+    "category": "A. Course Information",
+    "question": "In which year and term is Academic Writing offered?",
+    "expected_answer": "Year 1, Term 2 (UNR1407)"
+  },
+  {
+    "id": 105,
+    "category": "A. Course Information",
+    "question": "What is the department of CCS1302?",
+    "expected_answer": "Common"
+  },
+  {
+    "id": 106,
+    "category": "B. Term and Year",
+    "question": "Which courses are offered in Term 1?",
+    "expected_answer": "UNR1102, UNR1302, UNR1403, EBA1203, CCS1101, CIS1000, EBA0201, EBA1110"
+  },
+  {
+    "id": 107,
+    "category": "B. Term and Year",
+    "question": "How many courses are offered in Term 2?",
+    "expected_answer": "7 courses"
+  },
+  {
+    "id": 108,
+    "category": "B. Term and Year",
+    "question": "What is the total number of credit hours in Term 1?",
+    "expected_answer": "18"
+  },
+  {
+    "id": 109,
+    "category": "B. Term and Year",
+    "question": "What is the total number of credit hours in Term 2?",
+    "expected_answer": "18"
+  },
+  {
+    "id": 110,
+    "category": "B. Term and Year",
+    "question": "Is Physics offered in Term 2?",
+    "expected_answer": "No. Physics (EBA1110) is offered in Term 1."
+  },
+  {
+    "id": 111,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for Problem Solving and Programming?",
+    "expected_answer": "CCS1101"
+  },
+  {
+    "id": 112,
+    "category": "C. Prerequisites",
+    "question": "Can I take Calculus II without completing Calculus I?",
+    "expected_answer": "No. EBA1204 requires EBA1203."
+  },
+  {
+    "id": 113,
+    "category": "C. Prerequisites",
+    "question": "Which course must I complete before taking UNR2101?",
+    "expected_answer": "UNR1403"
+  },
+  {
+    "id": 114,
+    "category": "C. Prerequisites",
+    "question": "Does UNR1403 require multiple prerequisites?",
+    "expected_answer": "None, or GLA0001 for students who have not passed the English Proficiency Test"
+  },
+  {
+    "id": 115,
+    "category": "C. Prerequisites",
+    "question": "Explain the prerequisite condition for EBA1203.",
+    "expected_answer": "None, or EBA0201 for science students"
+  },
+  {
+    "id": 116,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses can I take after completing CCS1101?",
+    "expected_answer": "CCS1302, CCS1001, CCS2102"
+  },
+  {
+    "id": 117,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses require EBA1203 as a prerequisite?",
+    "expected_answer": "EBA1204"
+  },
+  {
+    "id": 118,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Does completing UNR1403 unlock any other courses?",
+    "expected_answer": "Yes: UNR2101 and UNR1407"
+  },
+  {
+    "id": 119,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "What future courses depend on CCS1302?",
+    "expected_answer": "CCS2303, CCS2201, CIS2101, CCS3002"
+  },
+  {
+    "id": 120,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Does completing CIS1000 alone make CSE2001 available?",
+    "expected_answer": "No. CSE2001 requires CCS2303 AND CIS1000."
+  },
+  {
+    "id": 121,
+    "category": "E. Multi-Information",
+    "question": "List all courses in Term 1 with their codes and credit hours.",
+    "expected_answer": "The 8 Term 1 courses with their credit hours"
+  },
+  {
+    "id": 122,
+    "category": "E. Multi-Information",
+    "question": "Show all courses in Term 2 with their prerequisites.",
+    "expected_answer": "The 7 Term 2 courses; UNR2101 and UNR1407 need UNR1403, EBA1204 needs EBA1203, CCS1302 and CCS1001 need CCS1101"
+  },
+  {
+    "id": 123,
+    "category": "E. Multi-Information",
+    "question": "Compare the courses in Term 1 and Term 2.",
+    "expected_answer": "Both terms have 18 credit hours; Term 1 has 8 courses and Term 2 has 7"
+  },
+  {
+    "id": 124,
+    "category": "E. Multi-Information",
+    "question": "List all courses in Year 1 with their codes and credit hours.",
+    "expected_answer": "All 15 Year 1 courses with credit hours"
+  },
+  {
+    "id": 125,
+    "category": "E. Multi-Information",
+    "question": "Which courses in Term 2 require a course from the previous term?",
+    "expected_answer": "UNR2101, UNR1407, EBA1204, CCS1302, CCS1001"
+  },
+  {
+    "id": 126,
+    "category": "F. Missing Information",
+    "question": "What is the exam date for Calculus I?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 127,
+    "category": "F. Missing Information",
+    "question": "Who is the instructor of CCS1101?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 128,
+    "category": "F. Missing Information",
+    "question": "What textbook is used in Academic English?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 129,
+    "category": "F. Missing Information",
+    "question": "What is the exam schedule for Year 1?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 130,
+    "category": "F. Missing Information",
+    "question": "What is the attendance percentage required for Physics?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 131,
+    "category": "G. Out-of-Scope",
+    "question": "What is the best programming language?",
+    "expected_answer": "Politely explains it only answers questions supported by the academic documents"
+  },
+  {
+    "id": 132,
+    "category": "G. Out-of-Scope",
+    "question": "Which university is better?",
+    "expected_answer": "Politely explains it only answers questions supported by the academic documents"
+  },
+  {
+    "id": 133,
+    "category": "G. Out-of-Scope",
+    "question": "Can you recommend a laptop?",
+    "expected_answer": "Politely explains it only answers questions supported by the academic documents"
+  },
+  {
+    "id": 134,
+    "category": "G. Out-of-Scope",
+    "question": "What is the weather today?",
+    "expected_answer": "Politely explains it only answers questions supported by the academic documents"
+  },
+  {
+    "id": 135,
+    "category": "G. Out-of-Scope",
+    "question": "How can I learn game development?",
+    "expected_answer": "Politely explains it only answers questions supported by the academic documents"
+  },
+  {
+    "id": 201,
+    "category": "A. Course Information",
+    "question": "What is the course code for Database Systems?",
+    "expected_answer": "CIS2101."
+  },
+  {
+    "id": 202,
+    "category": "A. Course Information",
+    "question": "What is the name of course CCY2001?",
+    "expected_answer": "Introduction to Cybersecurity."
+  },
+  {
+    "id": 203,
+    "category": "A. Course Information",
+    "question": "How many credit hours does Data Structures and Algorithms have?",
+    "expected_answer": "3 credit hours (CCS2401)."
+  },
+  {
+    "id": 204,
+    "category": "A. Course Information",
+    "question": "In which year and term is Web Programming offered?",
+    "expected_answer": "Year 2, Term 4 (CCS2305)."
+  },
+  {
+    "id": 205,
+    "category": "A. Course Information",
+    "question": "What is the department of CCS2102?",
+    "expected_answer": "Common"
+  },
+  {
+    "id": 206,
+    "category": "B. Term and Year",
+    "question": "Which courses are offered in Term 3?",
+    "expected_answer": "EBA2204 Linear Algebra, EBA2203 Probability & Statistics, CIS2101 Database Systems, CCS2303 Object-Oriented Programming, CCS2102 Digital Logic Design, CCS2201 Introduction to Networks."
+  },
+  {
+    "id": 207,
+    "category": "B. Term and Year",
+    "question": "How many courses are offered in Term 4?",
+    "expected_answer": "6 courses."
+  },
+  {
+    "id": 208,
+    "category": "B. Term and Year",
+    "question": "What is the total number of credit hours in Term 3?",
+    "expected_answer": "18 credit hours."
+  },
+  {
+    "id": 209,
+    "category": "B. Term and Year",
+    "question": "Is Linear Algebra offered in Term 4?",
+    "expected_answer": "No. Linear Algebra (EBA2204) is offered in Term 3."
+  },
+  {
+    "id": 210,
+    "category": "B. Term and Year",
+    "question": "What courses are included in Year 2?",
+    "expected_answer": "12 courses. Term 3: EBA2204, EBA2203, CIS2101, CCS2303, CCS2102, CCS2201. Term 4: CSE2001, CCY2001, CCS2103, CCS2304, CCS2401, CCS2305."
+  },
+  {
+    "id": 211,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for Introduction to Software Engineering?",
+    "expected_answer": "CIS1000 AND CCS2303 (CSE2001) - both are required."
+  },
+  {
+    "id": 212,
+    "category": "C. Prerequisites",
+    "question": "Can I take Introduction to Cybersecurity without completing Introduction to Networks?",
+    "expected_answer": "No. CCY2001 requires CCS2201 (Introduction to Networks)."
+  },
+  {
+    "id": 213,
+    "category": "C. Prerequisites",
+    "question": "Which course must I complete before taking CCS2103?",
+    "expected_answer": "CCS2102 (Digital Logic Design)."
+  },
+  {
+    "id": 214,
+    "category": "C. Prerequisites",
+    "question": "Does CSE2001 require multiple prerequisites?",
+    "expected_answer": "Yes. It requires CIS1000 AND CCS2303 (both)."
+  },
+  {
+    "id": 215,
+    "category": "C. Prerequisites",
+    "question": "What is the prerequisite for Web Programming?",
+    "expected_answer": "CIS2101 (Database Systems) is the prerequisite for CCS2305."
+  },
+  {
+    "id": 216,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses require CIS2101 as a prerequisite?",
+    "expected_answer": "CCS2305 (Web Programming)."
+  },
+  {
+    "id": 217,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses can I take after completing CCS2102?",
+    "expected_answer": "CCS2103 (Introduction to Computer Architecture), whose prerequisite is CCS2102."
+  },
+  {
+    "id": 218,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Does completing Introduction to Cybersecurity unlock any other courses?",
+    "expected_answer": "CCS4204 depends on it, but it requires CCS3203 AND CCY2001, so CCY2001 alone is not enough."
+  },
+  {
+    "id": 219,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "What future courses depend on CSE2001?",
+    "expected_answer": "CCS4502 (prerequisite: CSE2001)."
+  },
+  {
+    "id": 220,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "What are the prerequisites for CCS3202?",
+    "expected_answer": "CCS2303 AND CCS2103, so completing CCS2303 alone is not enough."
+  },
+  {
+    "id": 221,
+    "category": "E. Multi-Information",
+    "question": "List all courses in Term 3 with their codes and credit hours.",
+    "expected_answer": "EBA2204 Linear Algebra (3), EBA2203 Probability & Statistics (3), CIS2101 Database Systems (3), CCS2303 Object-Oriented Programming (3), CCS2102 Digital Logic Design (3), CCS2201 Introduction to Networks (3). Total 18."
+  },
+  {
+    "id": 222,
+    "category": "E. Multi-Information",
+    "question": "Show all courses in Term 4 with their prerequisites.",
+    "expected_answer": "CSE2001: CIS1000 AND CCS2303; CCY2001: CCS2201; CCS2103: CCS2102; CCS2304: CCS2303; CCS2401: CCS2303; CCS2305: CIS2101."
+  },
+  {
+    "id": 223,
+    "category": "E. Multi-Information",
+    "question": "Compare the courses in Term 3 and Term 4.",
+    "expected_answer": "Both terms have 6 courses and 18 credit hours (3 each). Term 3: EBA2204, EBA2203, CIS2101, CCS2303, CCS2102, CCS2201. Term 4: CSE2001, CCY2001, CCS2103, CCS2304, CCS2401, CCS2305."
+  },
+  {
+    "id": 224,
+    "category": "E. Multi-Information",
+    "question": "Which courses in Term 4 require a course from Term 3?",
+    "expected_answer": "All six: CSE2001 (CCS2303, plus CIS1000), CCY2001 (CCS2201), CCS2103 (CCS2102), CCS2304 (CCS2303), CCS2401 (CCS2303), CCS2305 (CIS2101)."
+  },
+  {
+    "id": 225,
+    "category": "E. Multi-Information",
+    "question": "List all Year 2 courses with their codes, credit hours, and prerequisites.",
+    "expected_answer": "EBA2204 (3; EBA1204), EBA2203 (3; EBA1204), CIS2101 (3; CCS1302), CCS2303 (3; CCS1302), CCS2102 (3; CCS1101), CCS2201 (3; CCS1302), CSE2001 (3; CIS1000 AND CCS2303), CCY2001 (3; CCS2201), CCS2103 (3; CCS2102), CCS2304 (3; CCS2303), CCS2401 (3; CCS2303), CCS2305 (3; CIS2101)."
+  },
+  {
+    "id": 226,
+    "category": "F. Missing Information",
+    "question": "What is the exam date for Data Structures and Algorithms?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 227,
+    "category": "F. Missing Information",
+    "question": "Who is the instructor of CCS2303?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 228,
+    "category": "F. Missing Information",
+    "question": "What textbook is used in Digital Logic Design?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 229,
+    "category": "F. Missing Information",
+    "question": "What is the exam schedule for Year 2?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 230,
+    "category": "F. Missing Information",
+    "question": "What is the attendance percentage required for Database Systems?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 231,
+    "category": "G. Out-of-Scope",
+    "question": "What is the best programming language?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 232,
+    "category": "G. Out-of-Scope",
+    "question": "Which university is better?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 233,
+    "category": "G. Out-of-Scope",
+    "question": "Can you recommend a laptop for studying?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 234,
+    "category": "G. Out-of-Scope",
+    "question": "What is the weather today?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 235,
+    "category": "G. Out-of-Scope",
+    "question": "How can I learn game development?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 301,
+    "category": "B. Term and Year",
+    "question": "What courses are listed in Term 5?",
+    "expected_answer": "CCS3402, CCS3202, CAI3101, CCS3203, EBA3202, and CIT3200."
+  },
+  {
+    "id": 302,
+    "category": "B. Term and Year",
+    "question": "What courses are listed in Term 6 as core courses?",
+    "expected_answer": "EBA3201, CCS3403, CCS3002, CCS3003, and CCS3501."
+  },
+  {
+    "id": 303,
+    "category": "A. Course Information",
+    "question": "How many credit hours does CCS3402 have?",
+    "expected_answer": "3 credit hours."
+  },
+  {
+    "id": 304,
+    "category": "A. Course Information",
+    "question": "What is the course name for CCS3202?",
+    "expected_answer": "Systems Programming."
+  },
+  {
+    "id": 305,
+    "category": "A. Course Information",
+    "question": "What is the course code for Operating Systems?",
+    "expected_answer": "CCS3203."
+  },
+  {
+    "id": 306,
+    "category": "A. Course Information",
+    "question": "How many credit hours does CIT3200 have?",
+    "expected_answer": "0 credit hours."
+  },
+  {
+    "id": 307,
+    "category": "A. Course Information",
+    "question": "In which year and term is CAI3101 offered?",
+    "expected_answer": "Year 3, Term 5."
+  },
+  {
+    "id": 308,
+    "category": "A. Course Information",
+    "question": "What department is CCS3501 in?",
+    "expected_answer": "Computer Science."
+  },
+  {
+    "id": 309,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for CCS3202?",
+    "expected_answer": "CCS2303 AND CCS2103."
+  },
+  {
+    "id": 310,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for CAI3101?",
+    "expected_answer": "CCS1001 AND CCS2401."
+  },
+  {
+    "id": 311,
+    "category": "C. Prerequisites",
+    "question": "What is the prerequisite for EBA3202?",
+    "expected_answer": "EBA1204."
+  },
+  {
+    "id": 312,
+    "category": "C. Prerequisites",
+    "question": "Can CCS3203 be taken without CCS2401?",
+    "expected_answer": "The listed prerequisite condition requires CCS2103 AND CCS2401."
+  },
+  {
+    "id": 313,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for CCS3002?",
+    "expected_answer": "CCS1302 AND EBA2204."
+  },
+  {
+    "id": 314,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for CCS3501?",
+    "expected_answer": "CCS2401 AND EBA2204."
+  },
+  {
+    "id": 315,
+    "category": "C. Prerequisites",
+    "question": "What is the prerequisite for CAI3103?",
+    "expected_answer": "CAI3101."
+  },
+  {
+    "id": 316,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which course is listed as an unlock for CCS3402?",
+    "expected_answer": "CCS4306."
+  },
+  {
+    "id": 317,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses are listed as unlocks for CCS3202?",
+    "expected_answer": "CCS4306 and CCS4307."
+  },
+  {
+    "id": 318,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses are listed as unlocks for CAI3101?",
+    "expected_answer": "CAI3105, CAI3103, and CCS4605."
+  },
+  {
+    "id": 319,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses are listed as unlocks for CCS3203?",
+    "expected_answer": "CCS4204, CCS4205, and CCS4208."
+  },
+  {
+    "id": 320,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses are listed as unlocks for CCS3501?",
+    "expected_answer": "CCS4503 and CCS4308."
+  },
+  {
+    "id": 321,
+    "category": "A. Course Information",
+    "question": "What is the description of Systems Programming?",
+    "expected_answer": "It covers machine architecture, machine and assembly languages, assemblers, macro facilities, loaders, linkers, formal languages, compilers, and interpreters."
+  },
+  {
+    "id": 322,
+    "category": "A. Course Information",
+    "question": "What does Introduction to Artificial Intelligence cover?",
+    "expected_answer": "Problem solving, search, knowledge representation, and supervised and unsupervised machine learning."
+  },
+  {
+    "id": 323,
+    "category": "A. Course Information",
+    "question": "What topics are covered in Computer Graphics?",
+    "expected_answer": "Graphics systems and applications, output primitives, drawing algorithms, transformations, windowing, clipping, and color systems."
+  },
+  {
+    "id": 324,
+    "category": "A. Course Information",
+    "question": "What does Numerical Methods introduce?",
+    "expected_answer": "An introduction to numerical methods and their applications to solve science and engineering problems, including convergence and error analysis, with programming assignments."
+  },
+  {
+    "id": 325,
+    "category": "B. Term and Year",
+    "question": "What is the total credit-hour count for Term 5 in this dataset?",
+    "expected_answer": "15 credit hours, counting the five 3-credit academic courses; CIT3200 is zero-credit."
+  },
+  {
+    "id": 326,
+    "category": "B. Term and Year",
+    "question": "What is the core-course credit-hour total for Term 6?",
+    "expected_answer": "15 credit hours for the five listed core courses."
+  },
+  {
+    "id": 327,
+    "category": "E. Multi-Information",
+    "question": "Is every professional-training option in Term 6 taken together?",
+    "expected_answer": "No. They are alternative professional-training options; they must not all be added together."
+  },
+  {
+    "id": 328,
+    "category": "F. Missing Information",
+    "question": "What is the exam date for CCS3402?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 329,
+    "category": "F. Missing Information",
+    "question": "Who teaches CCS3203?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 330,
+    "category": "F. Missing Information",
+    "question": "What textbook is required for CAI3101?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 331,
+    "category": "F. Missing Information",
+    "question": "What is the attendance percentage for CIT3200?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 332,
+    "category": "F. Missing Information",
+    "question": "What is the student's grade in CCS3402?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 333,
+    "category": "G. Out-of-Scope",
+    "question": "What is the best programming language?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 334,
+    "category": "G. Out-of-Scope",
+    "question": "Can you recommend a gaming laptop?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 335,
+    "category": "G. Out-of-Scope",
+    "question": "What is the weather in Alexandria today?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  }
+]

@@ -1,0 +1,9 @@
+Course Code: CAI3101
+Course Name: Introduction to Artificial Intelligence
+Department: Computer Science
+Year: 3
+Term: 5
+Credit Hours: 3
+Prerequisites: CCS1001 AND CCS2401
+Unlocks: CAI3105; CAI3103; CCS4605 (requires CAI3101 AND CCS2103)
+Description: Introduction to basic methods of Artificial Intelligence (AI) such as problem solving, searching techniques, and knowledge representation. The course also discusses machine learning techniques (supervised and unsupervised learning). This is covered through discussions, projects, and examples, students learn what AI is, some of the major developments in the field, promising directions, and the techniques for making computers exhibit intelligent behavior. Students make use of available tools and explore some areas of applications.

@@ -1,0 +1,14 @@
+Year: 1
+Term: 1
+
+Courses:
+- UNR1102: Creativity and Innovation (2 Credit Hours)
+- UNR1302: Fundamentals of Business (2 Credit Hours)
+- UNR1403: Academic English (2 Credit Hours)
+- EBA1203: Calculus I (3 Credit Hours)
+- CCS1101: Introduction to Computing (3 Credit Hours)
+- CIS1000: Introduction to Information Systems (3 Credit Hours)
+- EBA0201: Precalculus (0 Credit Hours)
+- EBA1110: Physics (3 Credit Hours)
+
+Total Credit Hours: 18

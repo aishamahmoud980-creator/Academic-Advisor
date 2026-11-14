@@ -1,0 +1,13 @@
+Year: 1
+Term: 2
+
+Courses:
+- UNR2101: Communication and Presentation Skills (2 Credit Hours)
+- UNR1407: Academic Writing (2 Credit Hours)
+- EBA1204: Calculus II (3 Credit Hours)
+- EBA1106: Advanced Physics (3 Credit Hours)
+- CCS1302: Problem Solving and Programming (3 Credit Hours)
+- CNC1401: Entrepreneurship Skills (2 Credit Hours)
+- CCS1001: Discrete Structures (3 Credit Hours)
+
+Total Credit Hours: 18

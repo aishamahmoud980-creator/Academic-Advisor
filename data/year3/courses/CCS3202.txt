@@ -1,0 +1,9 @@
+Course Code: CCS3202
+Course Name: Systems Programming
+Department: Computer Science
+Year: 3
+Term: 5
+Credit Hours: 3
+Prerequisites: CCS2303 AND CCS2103
+Unlocks: CCS4306 (requires CCS3402 AND CCS3202); CCS4307 (requires CCS3202 AND CCS4306)
+Description: This course introduces the concepts and techniques of system programming. The course covers the following topics: Machine Architecture; Machine Language; Assembly Language; Two Pass Assemblers; One Pass Assemblers; Macro Facilities; Conditional Macros; Macro Processors; Loaders; Linkers; Formal Languages; The Design of Translators (Compilers and Interpreters).

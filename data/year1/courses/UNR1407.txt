@@ -1,0 +1,13 @@
+Course Code: UNR1407
+Course Name: Academic Writing
+Department: Common
+Year: 1
+Term: 2
+Credit Hours: 2
+Prerequisites: UNR1403
+Unlocks: None
+Description:This course aims at enhancing students’ academic writing skills.
+ The course provides both theoretical and practical bases for the students to master different types of
+  skills needed for effective writing in an academic context. The course helps students to build on
+   their writing strengths and learn how to remedy their weaknesses
+ through constructive feedback.

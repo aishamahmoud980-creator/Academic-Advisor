@@ -1,0 +1,476 @@
+[
+  {
+    "category": "A. Course Information",
+    "question": "What is the course code for Discrete Structures?",
+    "expected": "CCS1001",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "CCS1001"
+      ]
+    },
+    "id": 1
+  },
+  {
+    "category": "A. Course Information",
+    "question": "What is the name of course CNC1401?",
+    "expected": "Entrepreneurship Skills",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "Entrepreneurship Skills"
+      ]
+    },
+    "id": 2
+  },
+  {
+    "category": "A. Course Information",
+    "question": "How many credit hours does Calculus I have?",
+    "expected": "3 credit hours (EBA1203)",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "3"
+      ]
+    },
+    "id": 3
+  },
+  {
+    "category": "A. Course Information",
+    "question": "In which year and term is Academic Writing offered?",
+    "expected": "Year 1, Term 2 (UNR1407)",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "Term 2"
+      ]
+    },
+    "id": 4
+  },
+  {
+    "category": "A. Course Information",
+    "question": "What is the department of CCS1302?",
+    "expected": "Common",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "Common"
+      ]
+    },
+    "id": 5
+  },
+  {
+    "category": "B. Term and Year",
+    "question": "Which courses are offered in Term 1?",
+    "expected": "UNR1102, UNR1302, UNR1403, EBA1203, CCS1101, CIS1000, EBA0201, EBA1110",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "UNR1102",
+        "UNR1302",
+        "UNR1403",
+        "EBA1203",
+        "CCS1101",
+        "CIS1000",
+        "EBA0201",
+        "EBA1110"
+      ]
+    },
+    "id": 6
+  },
+  {
+    "category": "B. Term and Year",
+    "question": "How many courses are offered in Term 2?",
+    "expected": "7 courses",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "7"
+      ]
+    },
+    "id": 7
+  },
+  {
+    "category": "B. Term and Year",
+    "question": "What is the total number of credit hours in Term 1?",
+    "expected": "18",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "18"
+      ]
+    },
+    "id": 8
+  },
+  {
+    "category": "B. Term and Year",
+    "question": "What is the total number of credit hours in Term 2?",
+    "expected": "18",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "18"
+      ]
+    },
+    "id": 9
+  },
+  {
+    "category": "B. Term and Year",
+    "question": "Is Physics offered in Term 2?",
+    "expected": "No. Physics (EBA1110) is offered in Term 1.",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "Term 1"
+      ]
+    },
+    "id": 10
+  },
+  {
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for Problem Solving and Programming?",
+    "expected": "CCS1101",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "CCS1101"
+      ]
+    },
+    "id": 11
+  },
+  {
+    "category": "C. Prerequisites",
+    "question": "Can I take Calculus II without completing Calculus I?",
+    "expected": "No. EBA1204 requires EBA1203.",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "EBA1203"
+      ]
+    },
+    "id": 12
+  },
+  {
+    "category": "C. Prerequisites",
+    "question": "Which course must I complete before taking UNR2101?",
+    "expected": "UNR1403",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "UNR1403"
+      ]
+    },
+    "id": 13
+  },
+  {
+    "category": "C. Prerequisites",
+    "question": "Does UNR1403 require multiple prerequisites?",
+    "expected": "None, or GLA0001 for students who have not passed the English Proficiency Test",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "GLA0001"
+      ]
+    },
+    "id": 14
+  },
+  {
+    "category": "C. Prerequisites",
+    "question": "Explain the prerequisite condition for EBA1203.",
+    "expected": "None, or EBA0201 for science students",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "EBA0201"
+      ]
+    },
+    "id": 15
+  },
+  {
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses can I take after completing CCS1101?",
+    "expected": "CCS1302, CCS1001, CCS2102",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "CCS1302",
+        "CCS1001",
+        "CCS2102"
+      ]
+    },
+    "id": 16
+  },
+  {
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses require EBA1203 as a prerequisite?",
+    "expected": "EBA1204",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "EBA1204"
+      ]
+    },
+    "id": 17
+  },
+  {
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Does completing UNR1403 unlock any other courses?",
+    "expected": "Yes: UNR2101 and UNR1407",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "UNR2101",
+        "UNR1407"
+      ]
+    },
+    "id": 18
+  },
+  {
+    "category": "D. Course Progression (Unlocks)",
+    "question": "What future courses depend on CCS1302?",
+    "expected": "CCS2303, CCS2201, CIS2101, CCS3002",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "CCS2303",
+        "CCS2201",
+        "CIS2101",
+        "CCS3002"
+      ]
+    },
+    "id": 19
+  },
+  {
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Does completing CIS1000 alone make CSE2001 available?",
+    "expected": "No. CSE2001 requires CCS2303 AND CIS1000.",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "CCS2303"
+      ]
+    },
+    "id": 20
+  },
+  {
+    "category": "E. Multi-Information",
+    "question": "List all courses in Term 1 with their codes and credit hours.",
+    "expected": "The 8 Term 1 courses with their credit hours",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "UNR1102",
+        "UNR1302",
+        "UNR1403",
+        "EBA1203",
+        "CCS1101",
+        "CIS1000",
+        "EBA0201",
+        "EBA1110"
+      ]
+    },
+    "id": 21
+  },
+  {
+    "category": "E. Multi-Information",
+    "question": "Show all courses in Term 2 with their prerequisites.",
+    "expected": "The 7 Term 2 courses; UNR2101 and UNR1407 need UNR1403, EBA1204 needs EBA1203, CCS1302 and CCS1001 need CCS1101",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "UNR2101",
+        "UNR1407",
+        "EBA1204",
+        "EBA1106",
+        "CCS1302",
+        "CNC1401",
+        "CCS1001",
+        "UNR1403",
+        "EBA1203",
+        "CCS1101"
+      ]
+    },
+    "id": 22
+  },
+  {
+    "category": "E. Multi-Information",
+    "question": "Compare the courses in Term 1 and Term 2.",
+    "expected": "Both terms have 18 credit hours; Term 1 has 8 courses and Term 2 has 7",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "Term 1",
+        "Term 2",
+        "18"
+      ]
+    },
+    "id": 23
+  },
+  {
+    "category": "E. Multi-Information",
+    "question": "List all courses in Year 1 with their codes and credit hours.",
+    "expected": "All 15 Year 1 courses with credit hours",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "UNR1102",
+        "UNR1302",
+        "UNR1403",
+        "EBA1203",
+        "CCS1101",
+        "CIS1000",
+        "EBA0201",
+        "EBA1110",
+        "UNR2101",
+        "UNR1407",
+        "EBA1204",
+        "EBA1106",
+        "CCS1302",
+        "CNC1401",
+        "CCS1001"
+      ]
+    },
+    "id": 24
+  },
+  {
+    "category": "E. Multi-Information",
+    "question": "Which courses in Term 2 require a course from the previous term?",
+    "expected": "UNR2101, UNR1407, EBA1204, CCS1302, CCS1001",
+    "check": {
+      "type": "contains_all",
+      "keywords": [
+        "UNR2101",
+        "UNR1407",
+        "EBA1204",
+        "CCS1302",
+        "CCS1001"
+      ]
+    },
+    "id": 25
+  },
+  {
+    "category": "F. Missing Information",
+    "question": "What is the exam date for Calculus I?",
+    "expected": "I couldn't find this information in the provided academic documents.",
+    "check": {
+      "type": "refusal",
+      "keywords": []
+    },
+    "id": 26
+  },
+  {
+    "category": "F. Missing Information",
+    "question": "Who is the instructor of CCS1101?",
+    "expected": "I couldn't find this information in the provided academic documents.",
+    "check": {
+      "type": "refusal",
+      "keywords": []
+    },
+    "id": 27
+  },
+  {
+    "category": "F. Missing Information",
+    "question": "What textbook is used in Academic English?",
+    "expected": "I couldn't find this information in the provided academic documents.",
+    "check": {
+      "type": "refusal",
+      "keywords": []
+    },
+    "id": 28
+  },
+  {
+    "category": "F. Missing Information",
+    "question": "What is the exam schedule for Year 1?",
+    "expected": "I couldn't find this information in the provided academic documents.",
+    "check": {
+      "type": "refusal",
+      "keywords": []
+    },
+    "id": 29
+  },
+  {
+    "category": "F. Missing Information",
+    "question": "What is the attendance percentage required for Physics?",
+    "expected": "I couldn't find this information in the provided academic documents.",
+    "check": {
+      "type": "refusal",
+      "keywords": []
+    },
+    "id": 30
+  },
+  {
+    "category": "G. Out-of-Scope",
+    "question": "What is the best programming language?",
+    "expected": "Politely explains it only answers questions supported by the academic documents",
+    "check": {
+      "type": "redirect",
+      "keywords": [
+        "academic documents",
+        "academic information",
+        "only answer",
+        "only provide"
+      ]
+    },
+    "id": 31
+  },
+  {
+    "category": "G. Out-of-Scope",
+    "question": "Which university is better?",
+    "expected": "Politely explains it only answers questions supported by the academic documents",
+    "check": {
+      "type": "redirect",
+      "keywords": [
+        "academic documents",
+        "academic information",
+        "only answer",
+        "only provide"
+      ]
+    },
+    "id": 32
+  },
+  {
+    "category": "G. Out-of-Scope",
+    "question": "Can you recommend a laptop?",
+    "expected": "Politely explains it only answers questions supported by the academic documents",
+    "check": {
+      "type": "redirect",
+      "keywords": [
+        "academic documents",
+        "academic information",
+        "only answer",
+        "only provide"
+      ]
+    },
+    "id": 33
+  },
+  {
+    "category": "G. Out-of-Scope",
+    "question": "What is the weather today?",
+    "expected": "Politely explains it only answers questions supported by the academic documents",
+    "check": {
+      "type": "redirect",
+      "keywords": [
+        "academic documents",
+        "academic information",
+        "only answer",
+        "only provide"
+      ]
+    },
+    "id": 34
+  },
+  {
+    "category": "G. Out-of-Scope",
+    "question": "How can I learn game development?",
+    "expected": "Politely explains it only answers questions supported by the academic documents",
+    "check": {
+      "type": "redirect",
+      "keywords": [
+        "academic documents",
+        "academic information",
+        "only answer",
+        "only provide"
+      ]
+    },
+    "id": 35
+  }
+]

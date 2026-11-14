@@ -1,0 +1,10 @@
+Course Code: CNC1401
+Course Name: Entrepreneurship Skills
+Department: Common
+Year: 1
+Term: 2
+Credit Hours: 2
+Prerequisites: 10 CR. or more
+Unlocks: None
+Description:This course will offer students the opportunity to imagine, 
+develop and implement individualized and collaborative entrepreneurial strategies that will aid them in their transition from their academic career to their professional career.

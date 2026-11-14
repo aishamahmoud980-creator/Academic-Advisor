@@ -1,0 +1,14 @@
+Course Code: CCS1302
+Course Name: Problem Solving and Programming
+Department: Common
+Year: 1
+Term: 2
+Credit Hours: 3
+Prerequisites: CCS1101
+Unlocks: CCS2303, CCS2201, CIS2101, CCS3002
+Description:This course provides an introduction to the problem solving process,
+ problem solving approaches, algorithm design, and knowledge and skills in programming. 
+ Students learn how to implement problems’ solutions using appropriate programming languages. 
+ Problem solving and programming concepts are emphasized and further expanded to include 2D arrays, 
+ modular programming, recursion, searching and sorting, strings, dynamic memory handling, 
+simple and user defined data structures, file processing concepts.

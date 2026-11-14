@@ -1,0 +1,9 @@
+Course Code: CCS2103
+Course Name: Introduction to Computer Architecture
+Department: Common
+Year: 2
+Term: 4
+Credit Hours: 3
+Prerequisites: CCS2102
+Unlocks: CCS3202 (Prerequisites: CCS2303 AND CCS2103); CCS3203 (Prerequisites: CCS2103 AND CCS2401); CCS4207 (Prerequisites: CCS2103 AND CCS1302); CCS4605 (Prerequisites: CAI3101 AND CCS2103)
+Description: The course includes the organization and architecture of computer systems hardware; instruction set architectures; addressing modes; register transfer notation; processor design and computer arithmetic; memory systems; hardware implementations of virtual memory, and input/output control and devices This course exposes the student to computer design & organization. It aims for the student to understand the software/hardware interface, instructions, processor, modules & performance issues.

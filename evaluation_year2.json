@@ -1,0 +1,288 @@
+{
+  "score_percent": 100.0,
+  "passed": 35,
+  "errors": 0,
+  "total": 35,
+  "results": [
+    {
+      "id": 1,
+      "category": "A. Course Information",
+      "question": "What is the course code for Database Systems?",
+      "expected_answer": "CIS2101.",
+      "actual_answer": "The course code for **Database Systems** is **CIS2101**.",
+      "result": "Pass"
+    },
+    {
+      "id": 2,
+      "category": "A. Course Information",
+      "question": "What is the name of course CCY2001?",
+      "expected_answer": "Introduction to Cybersecurity.",
+      "actual_answer": "**CCY2001 – Introduction to Cybersecurity**",
+      "result": "Pass"
+    },
+    {
+      "id": 3,
+      "category": "A. Course Information",
+      "question": "How many credit hours does Data Structures and Algorithms have?",
+      "expected_answer": "3 credit hours (CCS2401).",
+      "actual_answer": "Data Structures and Algorithms (CCS2401) carries **3 credit hours**.",
+      "result": "Pass"
+    },
+    {
+      "id": 4,
+      "category": "A. Course Information",
+      "question": "In which year and term is Web Programming offered?",
+      "expected_answer": "Year 2, Term 4 (CCS2305).",
+      "actual_answer": "Web Programming (Course Code **CCS2305**) is offered in **Year 2, Term 4**.",
+      "result": "Pass"
+    },
+    {
+      "id": 5,
+      "category": "A. Course Information",
+      "question": "What is the department of CCS2102?",
+      "expected_answer": "Common",
+      "actual_answer": "CCS2102 is offered by the **Common** department.",
+      "result": "Pass"
+    },
+    {
+      "id": 6,
+      "category": "B. Term and Year",
+      "question": "Which courses are offered in Term 3?",
+      "expected_answer": "EBA2204 Linear Algebra, EBA2203 Probability & Statistics, CIS2101 Database Systems, CCS2303 Object-Oriented Programming, CCS2102 Digital Logic Design, CCS2201 Introduction to Networks.",
+      "actual_answer": "**Courses offered in Term 3 (Year 2):**\n\n- **CCS2102** – Digital Logic Design  \n- **CCS2201** – Introduction to Networks  \n- **CCS2303** – Object‑Oriented Programming  \n- **CIS2101** – Database Systems  \n- **EBA2203** – Probability & Statistics  \n- **EBA2204** – Linear Algebra  \n\nThese six courses make up the Term 3 curriculum, totaling 18 credit hours.",
+      "result": "Pass"
+    },
+    {
+      "id": 7,
+      "category": "B. Term and Year",
+      "question": "How many courses are offered in Term 4?",
+      "expected_answer": "6 courses.",
+      "actual_answer": "Term 4 (Year 2) offers **6 courses**.",
+      "result": "Pass"
+    },
+    {
+      "id": 8,
+      "category": "B. Term and Year",
+      "question": "What is the total number of credit hours in Term 3?",
+      "expected_answer": "18 credit hours.",
+      "actual_answer": "The total credit hours for Term 3 (Year 2) are **18 credit hours**.",
+      "result": "Pass"
+    },
+    {
+      "id": 9,
+      "category": "B. Term and Year",
+      "question": "Is Linear Algebra offered in Term 4?",
+      "expected_answer": "No. Linear Algebra (EBA2204) is offered in Term 3.",
+      "actual_answer": "Linear Algebra (course code **EBA2204**) is listed for **Year 2, Term 3**. It does not appear in the Term 4 course list, so it is not offered in Term 4.",
+      "result": "Pass"
+    },
+    {
+      "id": 10,
+      "category": "B. Term and Year",
+      "question": "What courses are included in Year 2?",
+      "expected_answer": "12 courses. Term 3: EBA2204, EBA2203, CIS2101, CCS2303, CCS2102, CCS2201. Term 4: CSE2001, CCY2001, CCS2103, CCS2304, CCS2401, CCS2305.",
+      "actual_answer": "**Year 2 courses (all terms)**  \n\n| Course Code | Course Title | Term | Credit Hours | Prerequisites |\n|-------------|--------------|------|--------------|---------------|\n| CCS2102 | Digital Logic Design | Term 3 | 3 | CCS1101 |\n| CCS2201 | Introduction to Networks | Term 3 | 3 | CCS1302 |\n| CCS2303 | Object‑Oriented Programming | Term 3 | 3 | CCS1302 |\n| CIS2101 | Database Systems | Term 3 | 3 | CCS1302 |\n| EBA2203 | Probability & Statistics | Term 3 | 3 | EBA1204 |\n| EBA2204 | Linear Algebra | Term 3 | 3 | EBA1204 |\n| CCS2103 | Introduction to Computer Architecture | Term 4 | 3 | CCS2102 |\n| CCS2304 | Advanced Programming Applications | Term 4 | 3 | CCS2303 |\n| CCS2305 | Web Programming | Term 4 | 3 | CIS2101 |\n| CCS2401 | Data Structures and Algorithms | Term 4 | 3 | CCS2303 |\n| CCY2001 | Introduction to Cybersecurity | Term 4 | 3 | CCS2201 |\n| CSE2001 | Introduction to Software Engineering | Term 4 | 3 | CIS1000 **AND** CCS2303 |\n\nThese twelve courses make up the full curriculum for Year 2, totaling **36 credit hours**.",
+      "result": "Pass"
+    },
+    {
+      "id": 11,
+      "category": "C. Prerequisites",
+      "question": "What are the prerequisites for Introduction to Software Engineering?",
+      "expected_answer": "CIS1000 AND CCS2303 (CSE2001) - both are required.",
+      "actual_answer": "**Course CSE2001 – Introduction to Software Engineering**\n\n**Prerequisites:**  \n- **CIS1000**  \n- **CCS2303**  \n\nBoth courses must be completed (CIS1000 **AND** CCS2303) before enrolling in CSE2001.",
+      "result": "Pass"
+    },
+    {
+      "id": 12,
+      "category": "C. Prerequisites",
+      "question": "Can I take Introduction to Cybersecurity without completing Introduction to Networks?",
+      "expected_answer": "No. CCY2001 requires CCS2201 (Introduction to Networks).",
+      "actual_answer": "No. According to the academic documents, **CCY2001 – Introduction to Cybersecurity** lists **CCS2201 – Introduction to Networks** as a prerequisite. You must complete CCS2201 before enrolling in CCY2001.",
+      "result": "Pass"
+    },
+    {
+      "id": 13,
+      "category": "C. Prerequisites",
+      "question": "Which course must I complete before taking CCS2103?",
+      "expected_answer": "CCS2102 (Digital Logic Design).",
+      "actual_answer": "You need to complete **CCS2102** (Digital Logic Design) before you can enroll in **CCS2103 – Introduction to Computer Architecture**.",
+      "result": "Pass"
+    },
+    {
+      "id": 14,
+      "category": "C. Prerequisites",
+      "question": "Does CSE2001 require multiple prerequisites?",
+      "expected_answer": "Yes. It requires CIS1000 AND CCS2303 (both).",
+      "actual_answer": "Yes. **CSE2001 – Introduction to Software Engineering** requires **two** prerequisites: **CIS1000** **AND** **CCS2303**.",
+      "result": "Pass"
+    },
+    {
+      "id": 15,
+      "category": "C. Prerequisites",
+      "question": "What is the prerequisite for Web Programming?",
+      "expected_answer": "CIS2101 (Database Systems) is the prerequisite for CCS2305.",
+      "actual_answer": "The prerequisite for **Web Programming (CCS2305)** is **CIS2101**.",
+      "result": "Pass"
+    },
+    {
+      "id": 16,
+      "category": "D. Course Progression (Unlocks)",
+      "question": "Which courses require CIS2101 as a prerequisite?",
+      "expected_answer": "CCS2305 (Web Programming).",
+      "actual_answer": "The only course that lists **CIS2101 (Database Systems)** as a prerequisite is:\n\n- **CCS2305 – Web Programming** (3 credit hours) – offered in Term 4 of Year 2.",
+      "result": "Pass"
+    },
+    {
+      "id": 17,
+      "category": "D. Course Progression (Unlocks)",
+      "question": "Which courses can I take after completing CCS2102?",
+      "expected_answer": "CCS2103 (Introduction to Computer Architecture), whose prerequisite is CCS2102.",
+      "actual_answer": "**Immediately after completing CCS2102 (Digital Logic Design), the next course you are eligible to enroll in is:**\n\n| Course Code | Course Name | Term Offered | Prerequisite(s) |\n|-------------|-------------|--------------|-----------------|\n| **CCS2103** | Introduction to Computer Architecture | Term 4 (Year 2) | **CCS2102** |\n\n---\n\n### What this unlocks later\n- **CCS3202 – Systems Programming** (Term 5, Year 3) – requires **CCS2103** *and* **CCS2303**.  \n- **CCS3203 – Operating Systems** (Term 5, Year 3) – requires **CCS2103** *and* **CCS2401**.\n\nSo, after you finish **CCS2102**, you can take **CCS2103** right away. Completing **CCS2103** will then make you eligible for the higher‑level courses listed above, provided you also meet their other prerequisites.",
+      "result": "Pass"
+    },
+    {
+      "id": 18,
+      "category": "D. Course Progression (Unlocks)",
+      "question": "Does completing Introduction to Cybersecurity unlock any other courses?",
+      "expected_answer": "CCS4204 depends on it, but it requires CCS3203 AND CCY2001, so CCY2001 alone is not enough.",
+      "actual_answer": "Yes. Completing **CCY2001 – Introduction to Cybersecurity** unlocks the following course:\n\n- **CCS4204** – (Prerequisites: **CCS3203** AND **CCY2001**)  \n\nSo after you have earned CCY2001, you become eligible to enroll in CCS4204, provided you also meet the additional prerequisite CCS3203.",
+      "result": "Pass"
+    },
+    {
+      "id": 19,
+      "category": "D. Course Progression (Unlocks)",
+      "question": "What future courses depend on CSE2001?",
+      "expected_answer": "CCS4502 (prerequisite: CSE2001).",
+      "actual_answer": "The course that lists **CSE2001 (Introduction to Software Engineering)** as a prerequisite is:\n\n- **CCS4502** – (Prerequisites: CSE2001)  \n\nNo other future courses are shown in the provided documents as depending on CSE2001.",
+      "result": "Pass"
+    },
+    {
+      "id": 20,
+      "category": "D. Course Progression (Unlocks)",
+      "question": "What are the prerequisites for CCS3202?",
+      "expected_answer": "CCS2303 AND CCS2103, so completing CCS2303 alone is not enough.",
+      "actual_answer": "The prerequisite courses for **CCS3202 (Systems Programming)** are:\n\n- **CCS2303**  \n- **CCS2103**  \n\nBoth courses must be completed (CCS2303 **AND** CCS2103).",
+      "result": "Pass"
+    },
+    {
+      "id": 21,
+      "category": "E. Multi-Information",
+      "question": "List all courses in Term 3 with their codes and credit hours.",
+      "expected_answer": "EBA2204 Linear Algebra (3), EBA2203 Probability & Statistics (3), CIS2101 Database Systems (3), CCS2303 Object-Oriented Programming (3), CCS2102 Digital Logic Design (3), CCS2201 Introduction to Networks (3). Total 18.",
+      "actual_answer": "Here are the courses offered in **Term 3 (Year 2)**, together with their codes and credit hours:\n\n- **CCS2102 – Digital Logic Design** – 3 credit hours  \n- **CCS2201 – Introduction to Networks** – 3 credit hours  \n- **CCS2303 – Object‑Oriented Programming** – 3 credit hours  \n- **CIS2101 – Database Systems** – 3 credit hours  \n- **EBA2203 – Probability & Statistics** – 3 credit hours  \n- **EBA2204 – Linear Algebra** – 3 credit hours  \n\nTotal credit hours for Term 3: **18**.",
+      "result": "Pass"
+    },
+    {
+      "id": 22,
+      "category": "E. Multi-Information",
+      "question": "Show all courses in Term 4 with their prerequisites.",
+      "expected_answer": "CSE2001: CIS1000 AND CCS2303; CCY2001: CCS2201; CCS2103: CCS2102; CCS2304: CCS2303; CCS2401: CCS2303; CCS2305: CIS2101.",
+      "actual_answer": "**Term 4 (Year 2) – Courses and Prerequisites**\n\n- **CCS2103 – Introduction to Computer Architecture**  \n  Prerequisite: **CCS2102**\n\n- **CCS2304 – Advanced Programming Applications**  \n  Prerequisite: **CCS2303**\n\n- **CCS2305 – Web Programming**  \n  Prerequisite: **CIS2101**\n\n- **CCS2401 – Data Structures and Algorithms**  \n  Prerequisite: **CCS2303**\n\n- **CCY2001 – Introduction to Cybersecurity**  \n  Prerequisite: **CCS2201**\n\n- **CSE2001 – Introduction to Software Engineering**  \n  Prerequisites: **CIS1000 AND CCS2303**",
+      "result": "Pass"
+    },
+    {
+      "id": 23,
+      "category": "E. Multi-Information",
+      "question": "Compare the courses in Term 3 and Term 4.",
+      "expected_answer": "Both terms have 6 courses and 18 credit hours (3 each). Term 3: EBA2204, EBA2203, CIS2101, CCS2303, CCS2102, CCS2201. Term 4: CSE2001, CCY2001, CCS2103, CCS2304, CCS2401, CCS2305.",
+      "actual_answer": "**Term 3 (Year 2) vs. Term 4 (Year 2) – Side‑by‑Side Comparison**\n\n| Aspect | Term 3 (Year 2) | Term 4 (Year 2) |\n|--------|----------------|----------------|\n| **Number of courses** | 6 | 6 |\n| **Total credit hours** | 18 | 18 |\n| **Courses offered** | • **CCS2102** – Digital Logic Design (3 CH) – Prerequisite: **CCS1101**  <br>• **CCS2201** – Introduction to Networks (3 CH) – Prerequisite: **CCS1302**  <br>• **CCS2303** – Object‑Oriented Programming (3 CH) – Prerequisite: **CCS1302**  <br>• **CIS2101** – Database Systems (3 CH) – Prerequisite: **CCS1302**  <br>• **EBA2203** – Probability & Statistics (3 CH) – Prerequisite: **EBA1204**  <br>• **EBA2204** – Linear Algebra (3 CH) – Prerequisite: **EBA1204** | • **CCS2103** – Introduction to Computer Architecture (3 CH) – Prerequisite: **CCS2102** (taken in Term 3)  <br>• **CCS2304** – Advanced Programming Applications (3 CH) – Prerequisite: **CCS2303** (taken in Term 3)  <br>• **CCS2305** – Web Programming (3 CH) – Prerequisite: **CIS2101** (taken in Term 3)  <br>• **CCS2401** – Data Structures and Algorithms (3 CH) – Prerequisite: **CCS2303** (taken in Term 3)  <br>• **CCY2001** – Introduction to Cybersecurity (3 CH) – Prerequisite: **CCS2201** (taken in Term 3)  <br>• **CSE2001** – Introduction to Software Engineering (3 CH) – Prerequisites: **CIS1000** **AND** **CCS2303** (CCS2303 is from Term 3; CIS1000 is not listed in the provided context) |\n| **Typical progression** | Provides the foundational courses (digital logic, networking basics, OOP, databases, and core mathematics) that are required for many second‑year advanced courses. | Builds directly on Term 3: each course’s prerequisite is a course offered in Term 3, so students who complete Term 3 can enroll in all Term 4 courses (assuming they also meet any external prerequisite such as **CIS1000** for **CSE2001**). |\n| **Subject focus** | • Core computer‑science fundamentals (logic design, OOP)  <br>• Introductory networking and databases  <br>• Mathematics for computing (probability, linear algebra) | • Architecture and low‑level hardware concepts (**CCS2103**)  <br>• Advanced programming and software‑engineering topics (**CCS2304**, **CSE2001**)  <br>• Application‑level development (**CCS2305**)  <br>• Algorithms and data structures (**CCS2401**)  <br>• Cybersecurity basics (**CCY2001**) |\n| **Credit‑hour distribution** | All six courses are 3 credit hours each, giving a balanced 18‑hour load. | Same distribution: six 3‑credit‑hour courses, also totaling 18 credit hours. |\n\n### Key Takeaways\n- **Quantity & load:** Both terms offer the same number of courses (6) and the same total credit load (18 CH).\n- **Progression:** Term 4 courses are designed to be taken after Term 3; each prerequisite listed for a Term 4 course is a course that appears in Term 3.\n- **Curricular focus shift:** Term 3 emphasizes foundational theory and mathematics, while Term 4 moves toward applied computing topics such as architecture, data structures, advanced programming, and cybersecurity.",
+      "result": "Pass"
+    },
+    {
+      "id": 24,
+      "category": "E. Multi-Information",
+      "question": "Which courses in Term 4 require a course from Term 3?",
+      "expected_answer": "All six: CSE2001 (CCS2303, plus CIS1000), CCY2001 (CCS2201), CCS2103 (CCS2102), CCS2304 (CCS2303), CCS2401 (CCS2303), CCS2305 (CIS2101).",
+      "actual_answer": "Here are the Term 4 (Year 2) courses whose prerequisite(s) are courses offered in Term 3 (Year 2):\n\n| Term 4 Course | Prerequisite(s) from Term 3 |\n|---------------|-----------------------------|\n| **CCS2103 – Introduction to Computer Architecture** | CCS2102 (Digital Logic Design) |\n| **CCS2304 – Advanced Programming Applications** | CCS2303 (Object‑Oriented Programming) |\n| **CCS2305 – Web Programming** | CIS2101 (Database Systems) |\n| **CCS2401 – Data Structures and Algorithms** | CCS2303 (Object‑Oriented Programming) |\n| **CCY2001 – Introduction to Cybersecurity** | CCS2201 (Introduction to Networks) |\n| **CSE2001 – Introduction to Software Engineering** | CCS2303 (Object‑Oriented Programming) *and* CIS1000 (CIS1000 is not listed in the provided documents, but the Term 3 prerequisite CCS2303 satisfies the “require a course from Term 3” condition) |\n\nAll six Term 4 courses depend on at least one course that is taken in Term 3.",
+      "result": "Pass"
+    },
+    {
+      "id": 25,
+      "category": "E. Multi-Information",
+      "question": "List all Year 2 courses with their codes, credit hours, and prerequisites.",
+      "expected_answer": "EBA2204 (3; EBA1204), EBA2203 (3; EBA1204), CIS2101 (3; CCS1302), CCS2303 (3; CCS1302), CCS2102 (3; CCS1101), CCS2201 (3; CCS1302), CSE2001 (3; CIS1000 AND CCS2303), CCY2001 (3; CCS2201), CCS2103 (3; CCS2102), CCS2304 (3; CCS2303), CCS2401 (3; CCS2303), CCS2305 (3; CIS2101).",
+      "actual_answer": "**Year 2 Courses – Code, Credit Hours, and Prerequisites**\n\n| Course Code | Course Title | Credit Hours | Prerequisites |\n|-------------|--------------|--------------|---------------|\n| **CCS2102** | Digital Logic Design | 3 | CCS1101 |\n| **CCS2201** | Introduction to Networks | 3 | CCS1302 |\n| **CCS2303** | Object‑Oriented Programming | 3 | CCS1302 |\n| **CIS2101** | Database Systems | 3 | CCS1302 |\n| **EBA2203** | Probability & Statistics | 3 | EBA1204 |\n| **EBA2204** | Linear Algebra | 3 | EBA1204 |\n| **CCS2103** | Introduction to Computer Architecture | 3 | CCS2102 |\n| **CCS2304** | Advanced Programming Applications | 3 | CCS2303 |\n| **CCS2305** | Web Programming | 3 | CIS2101 |\n| **CCS2401** | Data Structures and Algorithms | 3 | CCS2303 |\n| **CCY2001** | Introduction to Cybersecurity | 3 | CCS2201 |\n| **CSE2001** | Introduction to Software Engineering | 3 | CIS1000 **AND** CCS2303 |\n\n*All 12 Year 2 courses are listed with their respective credit hours and prerequisite requirements as provided in the academic documents.*",
+      "result": "Pass"
+    },
+    {
+      "id": 26,
+      "category": "F. Missing Information",
+      "question": "What is the exam date for Data Structures and Algorithms?",
+      "expected_answer": "I couldn't find this information in the provided academic documents.",
+      "actual_answer": "I couldn't find this information in the provided academic documents.",
+      "result": "Pass"
+    },
+    {
+      "id": 27,
+      "category": "F. Missing Information",
+      "question": "Who is the instructor of CCS2303?",
+      "expected_answer": "I couldn't find this information in the provided academic documents.",
+      "actual_answer": "I couldn't find this information in the provided academic documents.",
+      "result": "Pass"
+    },
+    {
+      "id": 28,
+      "category": "F. Missing Information",
+      "question": "What textbook is used in Digital Logic Design?",
+      "expected_answer": "I couldn't find this information in the provided academic documents.",
+      "actual_answer": "I couldn't find this information in the provided academic documents.",
+      "result": "Pass"
+    },
+    {
+      "id": 29,
+      "category": "F. Missing Information",
+      "question": "What is the exam schedule for Year 2?",
+      "expected_answer": "I couldn't find this information in the provided academic documents.",
+      "actual_answer": "I couldn't find this information in the provided academic documents.",
+      "result": "Pass"
+    },
+    {
+      "id": 30,
+      "category": "F. Missing Information",
+      "question": "What is the attendance percentage required for Database Systems?",
+      "expected_answer": "I couldn't find this information in the provided academic documents.",
+      "actual_answer": "I couldn't find this information in the provided academic documents.",
+      "result": "Pass"
+    },
+    {
+      "id": 31,
+      "category": "G. Out-of-Scope",
+      "question": "What is the best programming language?",
+      "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given).",
+      "actual_answer": "I’m sorry, but I can only provide answers that are supported by the academic documents you’ve provided.",
+      "result": "Pass"
+    },
+    {
+      "id": 32,
+      "category": "G. Out-of-Scope",
+      "question": "Which university is better?",
+      "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given).",
+      "actual_answer": "I’m sorry, but I can only provide answers that are supported by the academic documents you’ve provided. If you have any questions about courses, prerequisites, credit hours, or curriculum details for the Faculty of Computer Science, I’d be happy to help!",
+      "result": "Pass"
+    },
+    {
+      "id": 33,
+      "category": "G. Out-of-Scope",
+      "question": "Can you recommend a laptop for studying?",
+      "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given).",
+      "actual_answer": "I’m sorry, but I can only provide answers that are supported by the academic documents you’ve provided. I don’t have information about laptop recommendations in those documents. If you have any questions about courses, prerequisites, or curriculum details, I’d be happy to help!",
+      "result": "Pass"
+    },
+    {
+      "id": 34,
+      "category": "G. Out-of-Scope",
+      "question": "What is the weather today?",
+      "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given).",
+      "actual_answer": "I’m sorry, but I can only provide information that is covered in the academic documents for the Faculty of Computer Science. I don’t have any weather information available.",
+      "result": "Pass"
+    },
+    {
+      "id": 35,
+      "category": "G. Out-of-Scope",
+      "question": "How can I learn game development?",
+      "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given).",
+      "actual_answer": "I couldn't find this information in the provided academic documents.",
+      "result": "Pass"
+    }
+  ]
+}

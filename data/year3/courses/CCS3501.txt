@@ -1,0 +1,9 @@
+Course Code: CCS3501
+Course Name: Computer Graphics
+Department: Computer Science
+Year: 3
+Term: 6
+Credit Hours: 3
+Prerequisites: CCS2401 AND EBA2204
+Unlocks: CCS4503; CCS4308 (requires CCS2303 AND CCS3501)
+Description: This course gives students an introduction, history, and survey of computer graphics and applications. Graphics systems and output devices are covered, as well as output primitives and algorithms including points, lines, circles, splines, area filling, and character generation. Moreover, algorithms for two-dimensional and three-dimensional transformations, windowing and clipping are discussed, in addition to color system and polygon filling.

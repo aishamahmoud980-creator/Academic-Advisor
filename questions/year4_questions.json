@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "category": "A. Course Information",
+    "question": "What is the course code for Computer System Security?",
+    "expected_answer": "CS421"
+  },
+  {
+    "id": 2,
+    "category": "A. Course Information",
+    "question": "What is the name of course CS402?",
+    "expected_answer": "Project II"
+  },
+  {
+    "id": 3,
+    "category": "A. Course Information",
+    "question": "How many credit hours does Structure of Programming Languages have?",
+    "expected_answer": "3 credit hours (CS445)"
+  },
+  {
+    "id": 4,
+    "category": "A. Course Information",
+    "question": "In which year and term is Human Computer Interaction offered?",
+    "expected_answer": "Year 4, Term 8 (CS451)"
+  },
+  {
+    "id": 5,
+    "category": "A. Course Information",
+    "question": "What is the department of CS481?",
+    "expected_answer": "Computer Science"
+  },
+  {
+    "id": 6,
+    "category": "B. Term and Year",
+    "question": "Which courses are offered in Term 7?",
+    "expected_answer": "CS481 Computers and Society, CS445 Structure of Programming Languages, CS401 Project I, CCS4208 Cloud Computing, CCS4308 Game Programming, CIT4802 Professional Training in Multimedia II"
+  },
+  {
+    "id": 7,
+    "category": "B. Term and Year",
+    "question": "Which courses are offered in Term 8?",
+    "expected_answer": "CS421 Computer System Security, CS451 Human Computer Interaction, CS402 Project II, CIT4803 Professional Training in Multimedia III"
+  },
+  {
+    "id": 8,
+    "category": "B. Term and Year",
+    "question": "What is the total number of credit hours in Term 7?",
+    "expected_answer": "15"
+  },
+  {
+    "id": 9,
+    "category": "B. Term and Year",
+    "question": "What is the total number of credit hours in Term 8?",
+    "expected_answer": "15"
+  },
+  {
+    "id": 10,
+    "category": "B. Term and Year",
+    "question": "Is Project II offered in Term 7?",
+    "expected_answer": "No. CS402 Project II is offered in Term 8."
+  },
+  {
+    "id": 11,
+    "category": "C. Prerequisites",
+    "question": "What are the prerequisites for Computer System Security?",
+    "expected_answer": "CS322 AND CE231 (both required)"
+  },
+  {
+    "id": 12,
+    "category": "C. Prerequisites",
+    "question": "What is the prerequisite for Human Computer Interaction?",
+    "expected_answer": "SE291"
+  },
+  {
+    "id": 13,
+    "category": "C. Prerequisites",
+    "question": "Can I take Project II without completing Project I?",
+    "expected_answer": "No. CS402 requires CS401 (Project I)."
+  },
+  {
+    "id": 14,
+    "category": "C. Prerequisites",
+    "question": "Does CS445 require multiple prerequisites?",
+    "expected_answer": "Yes: CS311 AND CS321"
+  },
+  {
+    "id": 15,
+    "category": "C. Prerequisites",
+    "question": "Explain the prerequisite condition for CS401.",
+    "expected_answer": "GPA >= 2.0 AND 93 CR or more (both conditions)"
+  },
+  {
+    "id": 16,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which courses require CS401 as a prerequisite?",
+    "expected_answer": "CS402 Project II"
+  },
+  {
+    "id": 17,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Does completing Project I unlock any other courses?",
+    "expected_answer": "Yes, CS402 Project II (its only prerequisite is CS401)"
+  },
+  {
+    "id": 18,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which Year 4 course requires SE291?",
+    "expected_answer": "CS451 Human Computer Interaction"
+  },
+  {
+    "id": 19,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Which Year 4 course can I take after CS321?",
+    "expected_answer": "CS445, but it also requires CS311 (CS311 AND CS321)"
+  },
+  {
+    "id": 20,
+    "category": "D. Course Progression (Unlocks)",
+    "question": "Are there additional prerequisites for CS421, which depends on CS322?",
+    "expected_answer": "Yes, CS421 requires CS322 AND CE231"
+  },
+  {
+    "id": 21,
+    "category": "E. Multi-Information",
+    "question": "List all courses in Term 8 with their codes and credit hours.",
+    "expected_answer": "CS421 (3), CS451 (3), CS402 (3), CIT4803 (0)"
+  },
+  {
+    "id": 22,
+    "category": "E. Multi-Information",
+    "question": "Show all courses in Term 7 with their prerequisites.",
+    "expected_answer": "CS481: 96 CR or more; CS445: CS311 AND CS321; CS401: GPA >= 2.0 AND 93 CR or more; CCS4208: CCS3203 AND CCS2201; CCS4308: CCS2303 AND CCS3501; CIT4802: None"
+  },
+  {
+    "id": 23,
+    "category": "E. Multi-Information",
+    "question": "Compare the courses in Term 7 and Term 8.",
+    "expected_answer": "Both terms have 15 credit hours (a student may take up to 21 hours, optional). Term 7: CS481, CS445, CS401, CCS4208, CCS4308, CIT4802. Term 8: CS421, CS451, CS402, CIT4803, plus electives chosen from the Major/Minor elective options."
+  },
+  {
+    "id": 24,
+    "category": "E. Multi-Information",
+    "question": "List all Year 4 courses with their codes and credit hours.",
+    "expected_answer": "Term 7 and Term 8 lists as in Q6/Q7 with credit hours (3 each except CIT4802 and CIT4803 = 0)"
+  },
+  {
+    "id": 25,
+    "category": "E. Multi-Information",
+    "question": "Which courses in Term 8 require a course from the previous term?",
+    "expected_answer": "CS402 Project II requires CS401 (Term 7)"
+  },
+  {
+    "id": 26,
+    "category": "F. Missing Information",
+    "question": "Who is the instructor of CS402?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 27,
+    "category": "F. Missing Information",
+    "question": "What is the exam date for Project I?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 28,
+    "category": "F. Missing Information",
+    "question": "What textbook is used in Computer System Security?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 29,
+    "category": "F. Missing Information",
+    "question": "What is the attendance percentage required for Human Computer Interaction?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 30,
+    "category": "F. Missing Information",
+    "question": "What is the exam schedule for Year 4?",
+    "expected_answer": "I couldn't find this information in the provided academic documents."
+  },
+  {
+    "id": 31,
+    "category": "G. Out-of-Scope",
+    "question": "What is the best programming language?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 32,
+    "category": "G. Out-of-Scope",
+    "question": "Which university is better?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 33,
+    "category": "G. Out-of-Scope",
+    "question": "Can you recommend a laptop?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 34,
+    "category": "G. Out-of-Scope",
+    "question": "What is the weather today?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  },
+  {
+    "id": 35,
+    "category": "G. Out-of-Scope",
+    "question": "How can I learn game development?",
+    "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given)."
+  }
+]

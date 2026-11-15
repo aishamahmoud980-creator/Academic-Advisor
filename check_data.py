@@ -11,7 +11,7 @@ from pathlib import Path
 
 FIELDS = ["Course Code", "Course Name", "Department", "Year", "Term",
           "Credit Hours", "Prerequisites", "Unlocks", "Description"]
-CODE = r"[A-Z]{3}\d{4}"
+CODE = r"[A-Z]{2,4}\d{3,4}"
 
 errors, warnings = [], []
 
@@ -62,10 +62,30 @@ def parse_term(path: Path):
         return None
     if not courses:
         err(f"{path.name}: no courses found (check the '- CODE: Name (N Credit Hours)' format)")
+    codes = [c for c, _, _ in courses]
     return {"year": int(year.group(1)), "term": int(term.group(1)),
             "total": int(total.group(1)),
             "courses": {c: (n, int(h)) for c, n, h in courses},
-            "count_lines": len(courses)}
+            "dups": sorted({c for c in codes if codes.count(c) > 1})}
+
+
+def looks_ok(v: str) -> bool:
+    """Prerequisites / Unlocks are accepted in any of these forms:
+       - None, or 'Not specified in the provided source.'
+       - anything starting with None (e.g. 'None (or GLA0001 for ...)')
+       - anything that contains a course code (e.g. 'CCS3003 (requires A AND B)')
+       - a credit-hours or GPA condition (e.g. '10 CR. or more', 'GPA >= 2.0')
+       Only text with none of these (probably a typo / leftover) gets a warning."""
+    v = v.strip()
+    if v == "Not specified in the provided source.":
+        return True
+    if re.match(r"^None\b", v, re.I):
+        return True
+    if re.search(CODE, v):
+        return True
+    if re.search(r"\d+\s*CR\b|\bGPA\b", v, re.I):
+        return True
+    return False
 
 
 def main():
@@ -99,18 +119,25 @@ def main():
         if info["term"] != t:
             err(f"{tf.name}: says Term {info['term']}, expected {t}")
         s = sum(h for _, h in info["courses"].values())
-        if s != info["total"]:
-            err(f"{tf.name}: Total Credit Hours is {info['total']} but courses add up to {s}")
-        if info["count_lines"] != len(info["courses"]):
-            err(f"{tf.name}: a course code is listed twice")
+        if s < info["total"]:
+            err(f"{tf.name}: Total Credit Hours is {info['total']} but courses add up to only {s}")
+        elif s > info["total"]:
+            # normal when the term file also lists elective options (student picks some)
+            warnings.append(f"{tf.name}: courses add up to {s} but Total Credit Hours is "
+                            f"{info['total']} (OK if the file includes elective options)")
+        if info["dups"]:
+            err(f"{tf.name}: course code listed twice: {', '.join(info['dups'])}")
         print(f"term{t}.txt: {len(info['courses'])} courses, {info['total']} credit hours")
         for code, (name, hours) in info["courses"].items():
-            listed[code] = (t, name, hours)
+            if code in listed:           # same course offered in both terms of the year
+                listed[code][0].add(t)
+            else:
+                listed[code] = ({t}, name, hours)
 
-    for code, (t, name, hours) in listed.items():
+    for code, (terms, name, hours) in listed.items():
         path = course_files.get(code)
         if not path:
-            err(f"{code}: listed in term{t}.txt but {code}.txt is missing in courses/")
+            err(f"{code}: listed in term{min(terms)}.txt but {code}.txt is missing in courses/")
             continue
         f = parse_course(path)
         if not f:
@@ -123,17 +150,14 @@ def main():
             err(f"{path.name}: Department is '{f.get('Department')}', expected '{dept}'")
         if f.get("Year") != str(year):
             err(f"{path.name}: Year is '{f.get('Year')}', expected {year}")
-        if f.get("Term") != str(t):
-            err(f"{path.name}: Term is '{f.get('Term')}', expected {t}")
+        nums = {int(n) for n in re.findall(r"\d+", f.get("Term", ""))}
+        if not terms <= nums:        # e.g. "7 and 8" is fine for a course listed in both
+            err(f"{path.name}: Term is '{f.get('Term')}', expected {' and '.join(map(str, sorted(terms)))}")
         if f.get("Credit Hours") != str(hours):
             err(f"{path.name}: Credit Hours '{f.get('Credit Hours')}' differs from term file ({hours})")
         for field in ("Prerequisites", "Unlocks"):
             v = f.get(field, "")
-            if v in ("None", "Not specified in the provided source."):
-                continue
-            leftovers = re.sub(CODE, "", v)
-            leftovers = re.sub(r"\b(AND|OR)\b|[(),\s]", "", leftovers)
-            if leftovers:
+            if not looks_ok(v):
                 warnings.append(f"{path.name}: {field} has unusual text: '{v}'")
 
     for code in course_files:

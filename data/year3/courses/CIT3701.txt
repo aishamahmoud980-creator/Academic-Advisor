@@ -3,7 +3,7 @@ Course Name: Professional Training in Database I
 Department: Computer Science
 Year: 3
 Term: 6
-Credit Hours: Not specified in the provided source.
+Credit Hours: 0
 Prerequisites: None
 Unlocks: None
 Description: Using Structured Query Language (SQL) to deal with databases by creating new tables, inserting new rows, updating and deleting data, writing queries to display data from database tables, using Oracle functions, and creating database objects such as views. It also covers securing databases by creating new users and granting and revoking privileges.

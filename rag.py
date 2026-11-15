@@ -170,7 +170,7 @@ class AcademicRAG:
                     picked.append(d)
 
         q_norm, q_low = _norm(question), question.lower()
-        codes = list(dict.fromkeys(re.findall(r"\b[A-Z]{2,4}\d{3,4}\b", question.upper())))
+        codes = list(dict.fromkeys(re.findall(r"[A-Z]{2,4}\d{3,4}", question.upper())))
         for name, code in self._names:
             if name in q_norm and code not in codes:
                 codes.append(code)

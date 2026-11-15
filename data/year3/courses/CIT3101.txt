@@ -3,7 +3,7 @@ Course Name: Professional Training in Software Testing I
 Department: Computer Science
 Year: 3
 Term: 6
-Credit Hours: Not specified in the provided source.
+Credit Hours: 0
 Prerequisites: None
 Unlocks: None
 Description: Certified Tester Foundation Level (CTFL) certification provides essential testing knowledge that can be put to practical use and explains the terminology and concepts that are used worldwide in the testing domain. CTFL is relevant across software delivery approaches and practices including Waterfall, Agile, DevOps, and Continuous Delivery. CTFL certification is recognized as a prerequisite to all other ISTQB certifications where Foundation Level is required.

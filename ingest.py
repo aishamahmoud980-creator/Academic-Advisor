@@ -8,7 +8,6 @@ Run `python ingest.py` to preview what will be indexed and see any warnings.
 """
 import re
 from pathlib import Path
-
 from langchain_core.documents import Document
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
@@ -18,7 +17,7 @@ COURSE_FIELDS = [
     "Credit Hours", "Prerequisites", "Unlocks", "Description",
 ]
 _FIELD_RE = re.compile(r"^(" + "|".join(COURSE_FIELDS) + r"):\s*(.*)$")
-CODE_PAT = r"[A-Z]{2,4}\d{3,4}"      # CCS2201, CS401, GM315, IS371 ...
+CODE_PAT = r"[A-Z]{2,4}\d{3,4}"      
 _SEM_COURSE_RE = re.compile(
     r"^-\s*(" + CODE_PAT + r"):\s*(.+?)\s*\((\d+(?:\.\d+)?)\s*Credit Hours?\)\s*$"
 )

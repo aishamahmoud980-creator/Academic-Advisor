@@ -1,288 +1,288 @@
 {
-  "score_percent": 0.0,
-  "passed": 0,
-  "errors": 35,
+  "score_percent": 100.0,
+  "passed": 35,
+  "errors": 0,
   "total": 35,
   "results": [
     {
-      "id": 1,
+      "id": 101,
       "category": "A. Course Information",
-      "question": "What is the course code for Computer System Security?",
-      "expected_answer": "CS421",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "How many credit hours does CCS3402 have?",
+      "expected_answer": "3 credit hours.",
+      "actual_answer": "CCS3402 (Theory of Computation) carries **3 credit hours**.",
+      "result": "Pass"
     },
     {
-      "id": 2,
+      "id": 102,
       "category": "A. Course Information",
-      "question": "What is the name of course CS402?",
-      "expected_answer": "Project II",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "What is the course code for Operating Systems?",
+      "expected_answer": "CCS3203.",
+      "actual_answer": "The course code for **Operating Systems** is **CCS3203**.",
+      "result": "Pass"
     },
     {
-      "id": 3,
+      "id": 103,
       "category": "A. Course Information",
-      "question": "How many credit hours does Structure of Programming Languages have?",
-      "expected_answer": "3 credit hours (CS445)",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "In which year and term is CAI3101 offered?",
+      "expected_answer": "Year 3, Term 5.",
+      "actual_answer": "CAI3101 (Introduction to Artificial Intelligence) is offered in **Year 3, Term 5**.",
+      "result": "Pass"
     },
     {
-      "id": 4,
+      "id": 104,
       "category": "A. Course Information",
-      "question": "In which year and term is Human Computer Interaction offered?",
-      "expected_answer": "Year 4, Term 8 (CS451)",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "What department is CCS3501 in?",
+      "expected_answer": "Computer Science.",
+      "actual_answer": "CCS3501 – Computer Graphics is offered by the **Computer Science** department.",
+      "result": "Pass"
     },
     {
-      "id": 5,
+      "id": 105,
       "category": "A. Course Information",
-      "question": "What is the department of CS481?",
-      "expected_answer": "Computer Science",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "What does Numerical Methods introduce?",
+      "expected_answer": "An introduction to numerical methods and their applications to solve science and engineering problems, including convergence and error analysis, with programming assignments.",
+      "actual_answer": "**Course CCS3002 – Numerical Methods**\n\nThe course introduces **numerical methods** and their use for solving science and engineering problems. It also covers:\n\n- **Convergence and error analysis** of the numerical techniques, and  \n- **Practical programming assignments** that give hands‑on experience in implementing the methods and assessing the resulting errors.",
+      "result": "Pass"
     },
     {
-      "id": 6,
+      "id": 106,
       "category": "B. Term and Year",
-      "question": "Which courses are offered in Term 7?",
-      "expected_answer": "CS481 Computers and Society, CS445 Structure of Programming Languages, CS401 Project I, CCS4208 Cloud Computing, CCS4308 Game Programming, CIT4802 Professional Training in Multimedia II",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "What courses are listed in Term 5?",
+      "expected_answer": "CCS3402, CCS3202, CAI3101, CCS3203, EBA3202, and CIT3200.",
+      "actual_answer": "**Courses offered in Term 5 (Year 3)**  \n\n| Course Code | Course Title | Credit Hours | Prerequisites |\n|-------------|--------------|--------------|---------------|\n| **CAI3101** | Introduction to Artificial Intelligence | 3 | CCS1001 **AND** CCS2401 |\n| **CCS3202** | Systems Programming | 3 | CCS2303 **AND** CCS2103 |\n| **CCS3203** | Operating Systems | 3 | CCS2103 **AND** CCS2401 |\n| **CCS3402** | Theory of Computation | 3 | CCS1001 |\n| **CIT3200** | Professional Training in Mobile Apps Programming | 0 | None |\n| **EBA3202** | Differential Equations | 3 | EBA1204 |\n\n- **Number of courses in Term 5:** 6  \n- **Total credit hours for Term 5:** 15  \n\nThese are the only courses listed for Term 5 in the provided academic documents.",
+      "result": "Pass"
     },
     {
-      "id": 7,
+      "id": 107,
       "category": "B. Term and Year",
-      "question": "Which courses are offered in Term 8?",
-      "expected_answer": "CS421 Computer System Security, CS451 Human Computer Interaction, CS402 Project II, CIT4803 Professional Training in Multimedia III",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "What courses are listed in Term 6 as core courses?",
+      "expected_answer": "EBA3201, CCS3403, CCS3002, CCS3003, and CCS3501.",
+      "actual_answer": "Here are the **core (required) courses** for **Term 6 (Year 3)**:\n\n| Course Code | Course Title | Credit Hours | Prerequisites |\n|-------------|--------------|--------------|---------------|\n| **CCS3002** | Numerical Methods | 3 | CCS1302 **AND** EBA2204 |\n| **CCS3003** | System Modeling and Simulation | 3 | CCS2303 **AND** EBA2203 |\n| **CCS3403** | Computing Algorithms | 3 | CCS2401 |\n| **CCS3501** | Computer Graphics | 3 | CCS2401 **AND** EBA2204 |\n| **EBA3201** | Advanced Statistics | 3 | EBA2203 |\n\nThese five courses constitute the required (core) curriculum for Term 6.",
+      "result": "Pass"
     },
     {
-      "id": 8,
+      "id": 108,
       "category": "B. Term and Year",
-      "question": "What is the total number of credit hours in Term 7?",
-      "expected_answer": "15",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "What is the total credit-hour count for Term 5 in this dataset?",
+      "expected_answer": "15 credit hours, counting the five 3-credit academic courses; CIT3200 is zero-credit.",
+      "actual_answer": "The total credit‑hour count for Term 5 (Year 3) is **15 credit hours**.",
+      "result": "Pass"
     },
     {
-      "id": 9,
+      "id": 109,
       "category": "B. Term and Year",
-      "question": "What is the total number of credit hours in Term 8?",
-      "expected_answer": "15",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "What is the core-course credit-hour total for Term 6?",
+      "expected_answer": "15 credit hours for the five listed core courses.",
+      "actual_answer": "The core (required) courses in Term 6 total **15 credit hours**.",
+      "result": "Pass"
     },
     {
-      "id": 10,
+      "id": 110,
       "category": "B. Term and Year",
-      "question": "Is Project II offered in Term 7?",
-      "expected_answer": "No. CS402 Project II is offered in Term 8.",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "Is Operating Systems offered in Term 6?",
+      "expected_answer": "No. Operating Systems (CCS3203) is offered in Term 5.",
+      "actual_answer": "No. The **Operating Systems** course (code **CCS3203**) is scheduled for **Term 5** of Year 3. It is not listed as a Term 6 offering. (Term 6 does include a different course, **CIT3401 – Professional Training in Operating Systems I**, but that is not the same course.)",
+      "result": "Pass"
     },
     {
-      "id": 11,
+      "id": 111,
       "category": "C. Prerequisites",
-      "question": "What are the prerequisites for Computer System Security?",
-      "expected_answer": "CS322 AND CE231 (both required)",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "What are the prerequisites for CCS3202?",
+      "expected_answer": "CCS2303 AND CCS2103.",
+      "actual_answer": "The prerequisite for **CCS3202 (Systems Programming)** is:\n\n- **CCS2303** **AND** **CCS2103**.",
+      "result": "Pass"
     },
     {
-      "id": 12,
+      "id": 112,
       "category": "C. Prerequisites",
-      "question": "What is the prerequisite for Human Computer Interaction?",
-      "expected_answer": "SE291",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "What are the prerequisites for CAI3101?",
+      "expected_answer": "CCS1001 AND CCS2401.",
+      "actual_answer": "The prerequisite for **CAI3101 – Introduction to Artificial Intelligence** is:\n\n- **CCS1001** **AND** **CCS2401**.",
+      "result": "Pass"
     },
     {
-      "id": 13,
+      "id": 113,
       "category": "C. Prerequisites",
-      "question": "Can I take Project II without completing Project I?",
-      "expected_answer": "No. CS402 requires CS401 (Project I).",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "What is the prerequisite for EBA3202?",
+      "expected_answer": "EBA1204.",
+      "actual_answer": "The prerequisite for **EBA3202** (Differential Equations) is **EBA1204** (Calculus II).",
+      "result": "Pass"
     },
     {
-      "id": 14,
+      "id": 114,
       "category": "C. Prerequisites",
-      "question": "Does CS445 require multiple prerequisites?",
-      "expected_answer": "Yes: CS311 AND CS321",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "Can CCS3203 be taken without CCS2401?",
+      "expected_answer": "The listed prerequisite condition requires CCS2103 AND CCS2401.",
+      "actual_answer": "CCS3203 (Operating Systems) requires **both** CCS2103 **AND** CCS2401 as prerequisites. Therefore, the course cannot be taken without first completing CCS2401.",
+      "result": "Pass"
     },
     {
-      "id": 15,
+      "id": 115,
       "category": "C. Prerequisites",
-      "question": "Explain the prerequisite condition for CS401.",
-      "expected_answer": "GPA >= 2.0 AND 93 CR or more (both conditions)",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "What is the prerequisite for CAI3103?",
+      "expected_answer": "CAI3101.",
+      "actual_answer": "The prerequisite for **CAI3103 (Deep Learning)** is **CAI3101**.",
+      "result": "Pass"
     },
     {
-      "id": 16,
+      "id": 116,
       "category": "D. Course Progression (Unlocks)",
-      "question": "Which courses require CS401 as a prerequisite?",
-      "expected_answer": "CS402 Project II",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "Which course is listed as an unlock for CCS3402?",
+      "expected_answer": "CCS4306.",
+      "actual_answer": "The course listed as an unlock for **CCS3402** is **CCS4306**.",
+      "result": "Pass"
     },
     {
-      "id": 17,
+      "id": 117,
       "category": "D. Course Progression (Unlocks)",
-      "question": "Does completing Project I unlock any other courses?",
-      "expected_answer": "Yes, CS402 Project II (its only prerequisite is CS401)",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "Which courses are listed as unlocks for CCS3202?",
+      "expected_answer": "CCS4306 and CCS4307.",
+      "actual_answer": "The courses listed as unlocks for **CCS3202** are:\n\n- **CCS4306** – (requires CCS3402 **AND** CCS3202)  \n- **CCS4307** – (requires CCS3202 **AND** CCS4306)",
+      "result": "Pass"
     },
     {
-      "id": 18,
+      "id": 118,
       "category": "D. Course Progression (Unlocks)",
-      "question": "Which Year 4 course requires SE291?",
-      "expected_answer": "CS451 Human Computer Interaction",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "Which courses are listed as unlocks for CAI3101?",
+      "expected_answer": "CAI3105, CAI3103, and CCS4605.",
+      "actual_answer": "The courses listed as unlocks for **CAI3101** are:\n\n- **CAI3105**  \n- **CAI3103**  \n- **CCS4605** (requires both CAI3101 **and** CCS2103)",
+      "result": "Pass"
     },
     {
-      "id": 19,
+      "id": 119,
       "category": "D. Course Progression (Unlocks)",
-      "question": "Which Year 4 course can I take after CS321?",
-      "expected_answer": "CS445, but it also requires CS311 (CS311 AND CS321)",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "Which courses are listed as unlocks for CCS3203?",
+      "expected_answer": "CCS4204, CCS4205, and CCS4208.",
+      "actual_answer": "The courses listed as unlocks for **CCS3203 (Operating Systems)** are:\n\n- **CCS4204** – requires CCS3203 **AND** CCY2001  \n- **CCS4205**  \n- **CCS4208** – requires CCS3203 **AND** CCS2201",
+      "result": "Pass"
     },
     {
-      "id": 20,
+      "id": 120,
       "category": "D. Course Progression (Unlocks)",
-      "question": "Are there additional prerequisites for CS421, which depends on CS322?",
-      "expected_answer": "Yes, CS421 requires CS322 AND CE231",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "Which courses are listed as unlocks for CCS3501?",
+      "expected_answer": "CCS4503 and CCS4308.",
+      "actual_answer": "The courses listed as **unlocks** for **CCS3501 – Computer Graphics** are:\n\n- **CCS4503**  \n- **CCS4308** (this course additionally requires **CCS2303 AND CCS3501** as prerequisites)",
+      "result": "Pass"
     },
     {
-      "id": 21,
+      "id": 121,
       "category": "E. Multi-Information",
-      "question": "List all courses in Term 8 with their codes and credit hours.",
-      "expected_answer": "CS421 (3), CS451 (3), CS402 (3), CIT4803 (0)",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "List all courses in Term 5 with their codes and credit hours.",
+      "expected_answer": "CCS3402 Theory of Computation (3), CCS3202 Systems Programming (3), CAI3101 Introduction to Artificial Intelligence (3), CCS3203 Operating Systems (3), EBA3202 Differential Equations (3), and CIT3200 (0 credit hours). Total 15.",
+      "actual_answer": "Here are the courses offered in **Term 5 (Year 3)**, together with their credit hours:\n\n- **CAI3101** – Introduction to Artificial Intelligence – **3 credit hours**\n- **CCS3202** – Systems Programming – **3 credit hours**\n- **CCS3203** – Operating Systems – **3 credit hours**\n- **CCS3402** – Theory of Computation – **3 credit hours**\n- **CIT3200** – Professional Training in Mobile Apps Programming – **0 credit hours**\n- **EBA3202** – Differential Equations – **3 credit hours**",
+      "result": "Pass"
     },
     {
-      "id": 22,
+      "id": 122,
       "category": "E. Multi-Information",
-      "question": "Show all courses in Term 7 with their prerequisites.",
-      "expected_answer": "CS481: 96 CR or more; CS445: CS311 AND CS321; CS401: GPA >= 2.0 AND 93 CR or more; CCS4208: CCS3203 AND CCS2201; CCS4308: CCS2303 AND CCS3501; CIT4802: None",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "Show all courses in Term 5 with their prerequisites.",
+      "expected_answer": "CCS3402: CCS1001; CCS3202: CCS2303 AND CCS2103; CAI3101: CCS1001 AND CCS2401; CCS3203: CCS2103 AND CCS2401; EBA3202: EBA1204; CIT3200: None.",
+      "actual_answer": "**Term 5 (Year 3) – Courses and Their Prerequisites**\n\n- **CAI3101 – Introduction to Artificial Intelligence**  \n  Prerequisites: **CCS1001 AND CCS2401**\n\n- **CCS3202 – Systems Programming**  \n  Prerequisites: **CCS2303 AND CCS2103**\n\n- **CCS3203 – Operating Systems**  \n  Prerequisites: **CCS2103 AND CCS2401**\n\n- **CCS3402 – Theory of Computation**  \n  Prerequisite: **CCS1001**\n\n- **CIT3200 – Professional Training in Mobile Apps Programming**  \n  Prerequisite: **None**\n\n- **EBA3202 – Differential Equations**  \n  Prerequisite: **EBA1204**",
+      "result": "Pass"
     },
     {
-      "id": 23,
+      "id": 123,
       "category": "E. Multi-Information",
-      "question": "Compare the courses in Term 7 and Term 8.",
-      "expected_answer": "Both terms have 15 credit hours (a student may take up to 21 hours, optional). Term 7: CS481, CS445, CS401, CCS4208, CCS4308, CIT4802. Term 8: CS421, CS451, CS402, CIT4803, plus electives chosen from the Major/Minor elective options.",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "Compare the courses in Term 5 and Term 6.",
+      "expected_answer": "Term 5 has 6 courses (CCS3402, CCS3202, CAI3101, CCS3203, EBA3202, CIT3200) and 15 credit hours. Term 6 has 5 core courses (EBA3201, CCS3403, CCS3002, CCS3003, CCS3501) totaling 15 credit hours, plus 2 major elective options (CAI3105, CAI3103) and 12 zero-credit professional-training alternatives that are not added to the total.",
+      "actual_answer": "**Term 5 (Year 3) vs. Term 6 (Year 3) – Quick Comparison**\n\n| Aspect | Term 5 | Term 6 |\n|--------|--------|--------|\n| **Number of courses listed** | 6 courses (all required) | 5 required courses + 14 elective options |\n| **Total credit hours (required courses)** | 15 CH | 15 CH (required courses only) |\n| **Typical credit‑hour value** | All courses are 3 CH except the professional‑training course (CIT3200) which is 0 CH | Required courses are all 3 CH; elective courses are either 3 CH (e.g., CAI3103, CAI3105) or 0 CH (most professional‑training electives) |\n| **Core focus** | • Introduction to AI (CAI3101)  <br>• Systems Programming (CCS3202)  <br>• Operating Systems (CCS3203)  <br>• Theory of Computation (CCS3402)  <br>• Differential Equations (EBA3202)  <br>• Professional Training in Mobile Apps (CIT3200) | • Numerical Methods (CCS3002)  <br>• System Modeling & Simulation (CCS3003)  <br>• Computing Algorithms (CCS3403)  <br>• Computer Graphics (CCS3501)  <br>• Advanced Statistics (EBA3201)  <br>• **Electives** – AI‑focused (CAI3103, CAI3105), various professional‑training modules, etc. |\n| **Prerequisite pattern** | All courses require **two** prerequisites (except CCS3402, which needs only CCS1001, and CIT3200, which has none). The prerequisites are drawn from Year 1 or Year 2 courses. | Required courses each need **two** prerequisites (except CCS3403, which needs only CCS2401). The electives have either a single prerequisite (CAI3103/CAI3105 need CAI3101) or none (most professional‑training electives). |\n| **Presence of AI‑related courses** | • CAI3101 – Introduction to Artificial Intelligence (requires CCS1001 AND CCS2401) | • Elective options CAI3103 (Deep Learning) and CAI3105 (Advanced Artificial Intelligence) – each requires CAI3101 (the Term 5 AI course). No AI‑focused required courses. |\n| **Professional‑training courses** | • CIT3200 (Mobile Apps) – 0 CH, no prerequisites | • 14 elective professional‑training courses (e.g., CIT3101, CIT3211, CIT3301, … CIT3901) – all 0 CH and have no prerequisites. |\n| **Mathematics/Statistics emphasis** | • EBA3202 (Differential Equations) – needs EBA1204 | • CCS3002 (Numerical Methods) – needs CCS1302 AND EBA2204 <br>• EBA3201 (Advanced Statistics) – needs EBA2203 |\n| **Systems/Programming emphasis** | • CCS3202 (Systems Programming) <br>• CCS3203 (Operating Systems) | • CCS3003 (System Modeling & Simulation) <br>• CCS3403 (Computing Algorithms) <br>• CCS3501 (Computer Graphics) |\n| **Elective flexibility** | No electives listed for Term 5. | Students choose from 14 elective options, allowing them to add AI, software testing, networking, cloud computing, cybersecurity, data science, etc., without affecting the required credit‑hour total. |\n\n**Key Take‑aways**\n\n1. **Course load** – Both terms require 15 credit hours, but Term 5 delivers all of them through required courses, whereas Term 6 mixes 15 required credit hours with a wide set of optional electives (most of which are 0 CH).\n\n2. **Prerequisite depth** – Term 5 courses generally need two prior courses, establishing a solid foundation before moving into specialized topics. Term 6 continues this pattern for required courses but offers many electives that either need a single prerequisite (the AI intro) or none, giving students more freedom.\n\n3. **Progression to AI** – The AI pathway starts in Term 5 with **CAI3101**. In Term 6, students can extend that pathway by selecting the electives **CAI3103** (Deep Learning) or **CAI3105** (Advanced Artificial Intelligence), which both depend on having completed CAI3101.\n\n4. **Professional training** – Term 5 includes one 0‑CH professional‑training course (CIT3200). Term 6 expands professional training dramatically with 14 optional 0‑CH modules covering testing, programming, networking, OS, cloud, cybersecurity, AI, databases, ERP, GIS, multimedia, and data science.\n\n5. **Mathematical support** – Term 5 provides a single math‑focused course (Differential Equations). Term 6 adds two math‑oriented required courses (Numerical Methods and Advanced Statistics), reinforcing quantitative skills needed for later advanced topics.",
+      "result": "Pass"
     },
     {
-      "id": 24,
+      "id": 124,
       "category": "E. Multi-Information",
-      "question": "List all Year 4 courses with their codes and credit hours.",
-      "expected_answer": "Term 7 and Term 8 lists as in Q6/Q7 with credit hours (3 each except CIT4802 and CIT4803 = 0)",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "Which courses in Term 6 require a course from Term 5?",
+      "expected_answer": "CAI3105 and CAI3103 (major elective options); both require CAI3101.",
+      "actual_answer": "The Term 6 courses that list a prerequisite taken in Term 5 are the two elective options:\n\n| Course Code | Course Title | Prerequisite (offered in Term 5) |\n|-------------|--------------|-----------------------------------|\n| **CAI3103** | Deep Learning | **CAI3101** – Introduction to Artificial Intelligence (Term 5, Year 3) |\n| **CAI3105** | Advanced Artificial Intelligence | **CAI3101** – Introduction to Artificial Intelligence (Term 5, Year 3) |\n\nNo required Term 6 courses have prerequisites from Term 5.",
+      "result": "Pass"
     },
     {
-      "id": 25,
+      "id": 125,
       "category": "E. Multi-Information",
-      "question": "Which courses in Term 8 require a course from the previous term?",
-      "expected_answer": "CS402 Project II requires CS401 (Term 7)",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "question": "Is every professional-training option in Term 6 taken together?",
+      "expected_answer": "No. They are alternative professional-training options; they must not all be added together.",
+      "actual_answer": "No, the Professional Training I options in Term 6 are not taken together. They are alternative tracks, and students choose the applicable option for their track.\n\nThe available Professional Training I course options (each worth 0 credit hours) are:\n\n* **CIT3701**: Professional Training in Database I\n* **CIT3101**: Professional Training in Software Testing I\n* **CIT3801**: Professional Training in Multimedia I\n* **CIT3901**: Professional Training in Data Science I\n* **CIT3601**: Professional Training in AI I\n* **CIT3301**: Professional Training in Networking I\n* **CIT3401**: Professional Training in Operating Systems I\n* **CIT3211**: Professional Training in Programming I\n* **CIT3501**: Professional Training in Cybersecurity I\n* **CIT3411**: Professional Training in Cloud Computing I\n* **CIT3721**: Professional Training in GIS I\n* **CIT3711**: Professional Training in ERP I",
+      "result": "Pass"
     },
     {
-      "id": 26,
+      "id": 126,
       "category": "F. Missing Information",
-      "question": "Who is the instructor of CS402?",
+      "question": "What is the exam date for CCS3402?",
       "expected_answer": "I couldn't find this information in the provided academic documents.",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "actual_answer": "I couldn't find this information in the provided academic documents.",
+      "result": "Pass"
     },
     {
-      "id": 27,
+      "id": 127,
       "category": "F. Missing Information",
-      "question": "What is the exam date for Project I?",
+      "question": "Who teaches CCS3203?",
       "expected_answer": "I couldn't find this information in the provided academic documents.",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "actual_answer": "I couldn't find this information in the provided academic documents.",
+      "result": "Pass"
     },
     {
-      "id": 28,
+      "id": 128,
       "category": "F. Missing Information",
-      "question": "What textbook is used in Computer System Security?",
+      "question": "What textbook is required for CAI3101?",
       "expected_answer": "I couldn't find this information in the provided academic documents.",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "actual_answer": "I couldn't find this information in the provided academic documents.",
+      "result": "Pass"
     },
     {
-      "id": 29,
+      "id": 129,
       "category": "F. Missing Information",
-      "question": "What is the attendance percentage required for Human Computer Interaction?",
+      "question": "What is the attendance percentage for CIT3200?",
       "expected_answer": "I couldn't find this information in the provided academic documents.",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "actual_answer": "I couldn't find this information in the provided academic documents.",
+      "result": "Pass"
     },
     {
-      "id": 30,
+      "id": 130,
       "category": "F. Missing Information",
-      "question": "What is the exam schedule for Year 4?",
+      "question": "What is the student's grade in CCS3402?",
       "expected_answer": "I couldn't find this information in the provided academic documents.",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "actual_answer": "I couldn't find this information in the provided academic documents.",
+      "result": "Pass"
     },
     {
-      "id": 31,
+      "id": 131,
       "category": "G. Out-of-Scope",
       "question": "What is the best programming language?",
       "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given).",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "actual_answer": "I’m sorry, but I can only provide answers that are supported by the academic documents you’ve given me.",
+      "result": "Pass"
     },
     {
-      "id": 32,
+      "id": 132,
       "category": "G. Out-of-Scope",
-      "question": "Which university is better?",
+      "question": "Can you recommend a gaming laptop?",
       "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given).",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "actual_answer": "I’m sorry, but I can only provide information that is covered in the academic documents for the Faculty of Computer Science. If you have any questions about courses, prerequisites, electives, or other curriculum details, I’d be happy to help!",
+      "result": "Pass"
     },
     {
-      "id": 33,
+      "id": 133,
       "category": "G. Out-of-Scope",
-      "question": "Can you recommend a laptop?",
+      "question": "What is the weather in Alexandria today?",
       "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given).",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "actual_answer": "I’m sorry, but I can only provide information that is covered in the academic documents for the Faculty of Computer Science. I don’t have weather data.",
+      "result": "Pass"
     },
     {
-      "id": 34,
+      "id": 134,
       "category": "G. Out-of-Scope",
-      "question": "What is the weather today?",
+      "question": "What is the capital of France?",
       "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given).",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "actual_answer": "I’m sorry, but I can only provide answers that are supported by the academic documents you’ve provided.",
+      "result": "Pass"
     },
     {
-      "id": 35,
+      "id": 135,
       "category": "G. Out-of-Scope",
-      "question": "How can I learn game development?",
+      "question": "Can you give me a recipe for pasta?",
       "expected_answer": "Politely explains that it only answers questions supported by the provided academic documents (no opinion/recommendation given).",
-      "actual_answer": "The AI server is busy right now. Please ask your question again in a few seconds.",
-      "result": "Error"
+      "actual_answer": "I am an Academic Information Assistant and can only answer questions supported by the provided academic documents. I am unable to answer questions or provide information unrelated to your academic courses and curriculum.",
+      "result": "Pass"
     }
   ]
 }
